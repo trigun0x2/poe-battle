@@ -1,0 +1,21 @@
+{
+  "name": "exile-draft",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Exile Draft — a web autobattler drafting game inspired by Path of Exile. Not affiliated with Grinding Gear Games.",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "data": "npm run build --workspace @exile/data",
+    "dev": "npm run dev --workspace @exile/web",
+    "dev:server": "npm run dev --workspace @exile/server",
+    "build": "npm run data && npm run build --workspace @exile/web",
+    "test": "npm run test --workspace @exile/sim",
+    "typecheck": "tsc -b packages/sim apps/server apps/web"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}

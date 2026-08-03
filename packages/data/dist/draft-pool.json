@@ -1,0 +1,6065 @@
+{
+ "version": "af2a2f1348bc",
+ "generatedAt": "2026-08-03T20:20:32.938Z",
+ "entities": [
+  {
+   "id": "lifesprig",
+   "category": "unique",
+   "name": "Lifesprig",
+   "base": "Driftwood Wand",
+   "slot": "weapon",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "spell",
+    "life"
+   ],
+   "stats": {
+    "incDamage": 30,
+    "life": 60,
+    "regen": 0.5
+   },
+   "flavor": "From the smallest seeds grow the mightiest spells."
+  },
+  {
+   "id": "redbeak",
+   "category": "unique",
+   "name": "Redbeak",
+   "base": "Rusted Sword",
+   "slot": "weapon",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "attack",
+    "physical",
+    "lowlife"
+   ],
+   "stats": {
+    "flatDamage": 25,
+    "incDamage": 20,
+    "leech": 0.5
+   },
+   "flavor": "Fresh recruits stand at the front."
+  },
+  {
+   "id": "the-screaming-eagle",
+   "category": "unique",
+   "name": "The Screaming Eagle",
+   "base": "Jade Hatchet",
+   "slot": "weapon",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "attack",
+    "physical",
+    "speed"
+   ],
+   "stats": {
+    "flatDamage": 22,
+    "incSpeed": 10,
+    "life": 40
+   }
+  },
+  {
+   "id": "quill-rain",
+   "category": "unique",
+   "name": "Quill Rain",
+   "base": "Short Bow",
+   "slot": "weapon",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "attack",
+    "bow",
+    "projectile",
+    "speed"
+   ],
+   "stats": {
+    "incSpeed": 55,
+    "moreDamage": -25,
+    "life": 40
+   },
+   "flavor": "The rain of a thousand quills."
+  },
+  {
+   "id": "axiom-perpetuum",
+   "category": "unique",
+   "name": "Axiom Perpetuum",
+   "base": "Bronze Sceptre",
+   "slot": "weapon",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "spell",
+    "elemental",
+    "crit"
+   ],
+   "stats": {
+    "flatDamage": 15,
+    "incDamage": 25,
+    "critChance": 8
+   }
+  },
+  {
+   "id": "brightbeak",
+   "category": "unique",
+   "name": "Brightbeak",
+   "base": "War Hammer",
+   "slot": "weapon",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "attack",
+    "lightning",
+    "speed",
+    "crit"
+   ],
+   "stats": {
+    "incSpeed": 30,
+    "critChance": 10,
+    "resLightning": 20,
+    "flatDamage": 12
+   }
+  },
+  {
+   "id": "the-princess",
+   "category": "unique",
+   "name": "The Princess",
+   "base": "Sabre",
+   "slot": "weapon",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "attack",
+    "cold",
+    "crit"
+   ],
+   "stats": {
+    "flatDamage": 20,
+    "incSpeed": 15,
+    "critMulti": 20
+   },
+   "flavor": "A gift fit for a princess of Wraeclast."
+  },
+  {
+   "id": "ungils-gauche",
+   "category": "unique",
+   "name": "Ungil's Gauche",
+   "base": "Boot Knife",
+   "slot": "weapon",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "attack",
+    "block"
+   ],
+   "stats": {
+    "block": 12,
+    "flatDamage": 18,
+    "incSpeed": 10
+   }
+  },
+  {
+   "id": "deaths-harp",
+   "category": "unique",
+   "name": "Death's Harp",
+   "base": "Death Bow",
+   "slot": "weapon",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "attack",
+    "bow",
+    "projectile",
+    "crit"
+   ],
+   "stats": {
+    "critMulti": 50,
+    "flatDamage": 20,
+    "incDamage": 20
+   },
+   "flavor": "The mournful music of the string."
+  },
+  {
+   "id": "doomfletch",
+   "category": "unique",
+   "name": "Doomfletch",
+   "base": "Royal Bow",
+   "slot": "weapon",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "attack",
+    "bow",
+    "elemental"
+   ],
+   "stats": {
+    "flatDamage": 35,
+    "incSpeed": 20,
+    "penetration": 5
+   }
+  },
+  {
+   "id": "terminus-est",
+   "category": "unique",
+   "name": "Terminus Est",
+   "base": "Tiger Sword",
+   "slot": "weapon",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "attack",
+    "physical",
+    "cold",
+    "crit",
+    "speed"
+   ],
+   "stats": {
+    "flatDamage": 40,
+    "incSpeed": 25,
+    "critChance": 15
+   },
+   "flavor": "This is the line of division."
+  },
+  {
+   "id": "doryanis-catalyst",
+   "category": "unique",
+   "name": "Doryani's Catalyst",
+   "base": "Vaal Sceptre",
+   "slot": "weapon",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "spell",
+    "elemental",
+    "leech"
+   ],
+   "stats": {
+    "incDamage": 60,
+    "leech": 1,
+    "flatDamage": 25
+   },
+   "flavor": "Doryani asked only for a chance to serve."
+  },
+  {
+   "id": "marohi-erqi",
+   "category": "unique",
+   "name": "Marohi Erqi",
+   "base": "Karui Maul",
+   "slot": "weapon",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "attack",
+    "physical",
+    "aoe"
+   ],
+   "stats": {
+    "flatDamage": 70,
+    "incSpeed": -10,
+    "incDamage": 40
+   }
+  },
+  {
+   "id": "lioneyes-glare",
+   "category": "unique",
+   "name": "Lioneye's Glare",
+   "base": "Imperial Bow",
+   "slot": "weapon",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "attack",
+    "bow",
+    "projectile"
+   ],
+   "stats": {
+    "flatDamage": 45,
+    "incSpeed": 20,
+    "incDamage": 30
+   },
+   "flavor": "A sharp eye can end a war."
+  },
+  {
+   "id": "obliteration",
+   "category": "unique",
+   "name": "Obliteration",
+   "base": "Demon's Horn",
+   "slot": "weapon",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "spell",
+    "chaos"
+   ],
+   "stats": {
+    "flatDamage": 30,
+    "incDamage": 40,
+    "penetration": 5
+   },
+   "flavor": "Dust to dust, ash to ash."
+  },
+  {
+   "id": "the-consuming-dark",
+   "category": "unique",
+   "name": "The Consuming Dark",
+   "base": "Fiend Dagger",
+   "slot": "weapon",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "spell",
+    "fire",
+    "chaos",
+    "dot"
+   ],
+   "stats": {
+    "incDamage": 35,
+    "dotMulti": 20,
+    "resChaos": 20
+   }
+  },
+  {
+   "id": "cospris-malice",
+   "category": "unique",
+   "name": "Cospri's Malice",
+   "base": "Jewelled Foil",
+   "slot": "weapon",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "attack",
+    "cold",
+    "spell",
+    "crit",
+    "speed"
+   ],
+   "stats": {
+    "incSpeed": 30,
+    "critChance": 20,
+    "flatDamage": 25
+   },
+   "flavor": "Cold blood runs cruel."
+  },
+  {
+   "id": "voltaxic-rift",
+   "category": "unique",
+   "name": "Voltaxic Rift",
+   "base": "Spine Bow",
+   "slot": "weapon",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "attack",
+    "bow",
+    "lightning",
+    "chaos"
+   ],
+   "stats": {
+    "flatDamage": 50,
+    "incSpeed": 15,
+    "penetration": 10
+   },
+   "flavor": "The eldritch storm won't hurt you. It wants you whole."
+  },
+  {
+   "id": "windripper",
+   "category": "unique",
+   "name": "Windripper",
+   "base": "Imperial Bow",
+   "slot": "weapon",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "attack",
+    "bow",
+    "cold",
+    "lightning",
+    "crit"
+   ],
+   "stats": {
+    "flatDamage": 40,
+    "critChance": 20,
+    "incSpeed": 20
+   },
+   "flavor": "Cold the wind that cuts the veil."
+  },
+  {
+   "id": "soul-taker",
+   "category": "unique",
+   "name": "Soul Taker",
+   "base": "Siege Axe",
+   "slot": "weapon",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "attack",
+    "physical",
+    "speed"
+   ],
+   "stats": {
+    "flatDamage": 55,
+    "incSpeed": 25,
+    "incDamage": 20
+   },
+   "flavor": "The axe hungers. Feed it."
+  },
+  {
+   "id": "oros-sacrifice",
+   "category": "unique",
+   "name": "Oro's Sacrifice",
+   "base": "Infernal Sword",
+   "slot": "weapon",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "attack",
+    "fire",
+    "speed"
+   ],
+   "stats": {
+    "flatDamage": 65,
+    "incSpeed": 20,
+    "resFire": 20
+   },
+   "flavor": "Flesh offered to flame."
+  },
+  {
+   "id": "mjolner",
+   "category": "unique",
+   "name": "Mjölner",
+   "base": "Gavel",
+   "slot": "weapon",
+   "tier": 5,
+   "cost": 12,
+   "tags": [
+    "attack",
+    "lightning",
+    "spell",
+    "trigger"
+   ],
+   "stats": {
+    "flatDamage": 40,
+    "incDamage": 50,
+    "moreDamage": 25
+   },
+   "flavor": "Look the storm in the eye and command it."
+  },
+  {
+   "id": "starforge",
+   "category": "unique",
+   "name": "Starforge",
+   "base": "Infernal Sword",
+   "slot": "weapon",
+   "tier": 5,
+   "cost": 12,
+   "tags": [
+    "attack",
+    "physical",
+    "aoe"
+   ],
+   "stats": {
+    "flatDamage": 90,
+    "incDamage": 40,
+    "life": 100
+   },
+   "flavor": "The end of a world. The beginning of another."
+  },
+  {
+   "id": "atziris-disfavour",
+   "category": "unique",
+   "name": "Atziri's Disfavour",
+   "base": "Vaal Axe",
+   "slot": "weapon",
+   "tier": 5,
+   "cost": 12,
+   "tags": [
+    "attack",
+    "physical",
+    "chaos",
+    "aoe"
+   ],
+   "stats": {
+    "flatDamage": 80,
+    "incSpeed": 15,
+    "moreDamage": 15
+   },
+   "flavor": "She despises those who fail her."
+  },
+  {
+   "id": "crest-of-perandus",
+   "category": "unique",
+   "name": "Crest of Perandus",
+   "base": "Pine Buckler",
+   "slot": "offhand",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "block",
+    "life"
+   ],
+   "stats": {
+    "block": 15,
+    "life": 80,
+    "regen": 0.5
+   },
+   "flavor": "A rich man's shield."
+  },
+  {
+   "id": "the-springleaf",
+   "category": "unique",
+   "name": "The Springleaf",
+   "base": "Plank Kite Shield",
+   "slot": "offhand",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "life",
+    "regen",
+    "lowlife"
+   ],
+   "stats": {
+    "regen": 2,
+    "life": 50
+   },
+   "flavor": "From death, life."
+  },
+  {
+   "id": "rise-of-the-phoenix",
+   "category": "unique",
+   "name": "Rise of the Phoenix",
+   "base": "Mosaic Kite Shield",
+   "slot": "offhand",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "fire",
+    "life",
+    "regen"
+   ],
+   "stats": {
+    "resFire": 40,
+    "maxRes": 3,
+    "regen": 1.5,
+    "life": 60
+   },
+   "flavor": "From the ashes, always."
+  },
+  {
+   "id": "saffells-frame",
+   "category": "unique",
+   "name": "Saffell's Frame",
+   "base": "Branded Kite Shield",
+   "slot": "offhand",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "spell",
+    "block"
+   ],
+   "stats": {
+    "spellBlock": 20,
+    "block": 5,
+    "resAll": 10,
+    "maxRes": 4
+   }
+  },
+  {
+   "id": "rathpith-globe",
+   "category": "unique",
+   "name": "Rathpith Globe",
+   "base": "Titanium Spirit Shield",
+   "slot": "offhand",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "spell",
+    "es",
+    "crit"
+   ],
+   "stats": {
+    "es": 150,
+    "incDamage": 40,
+    "critChance": 10
+   },
+   "flavor": "The Vaal do not bleed. They pour."
+  },
+  {
+   "id": "prism-guardian",
+   "category": "unique",
+   "name": "Prism Guardian",
+   "base": "Archon Kite Shield",
+   "slot": "offhand",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "aura",
+    "resist"
+   ],
+   "stats": {
+    "resAll": 25,
+    "life": 60,
+    "incDamage": 20
+   }
+  },
+  {
+   "id": "ahns-heritage",
+   "category": "unique",
+   "name": "Ahn's Heritage",
+   "base": "Colossal Tower Shield",
+   "slot": "offhand",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "armour",
+    "block"
+   ],
+   "stats": {
+    "armour": 800,
+    "block": 15,
+    "maxRes": 2,
+    "life": 80
+   }
+  },
+  {
+   "id": "tukohamas-fortress",
+   "category": "unique",
+   "name": "Tukohama's Fortress",
+   "base": "Ebony Tower Shield",
+   "slot": "offhand",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "totem",
+    "physical"
+   ],
+   "stats": {
+    "life": 120,
+    "incDamage": 50,
+    "armour": 300
+   },
+   "flavor": "A wall the sea itself respects."
+  },
+  {
+   "id": "light-of-lunaris",
+   "category": "unique",
+   "name": "Light of Lunaris",
+   "base": "Jingling Spirit Shield",
+   "slot": "offhand",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "spell",
+    "cold",
+    "crit",
+    "block"
+   ],
+   "stats": {
+    "es": 120,
+    "incDamage": 60,
+    "block": 10,
+    "critMulti": 30
+   }
+  },
+  {
+   "id": "lycosidae",
+   "category": "unique",
+   "name": "Lycosidae",
+   "base": "Rawhide Tower Shield",
+   "slot": "offhand",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "attack",
+    "block"
+   ],
+   "stats": {
+    "block": 15,
+    "life": 130,
+    "flatDamage": 25
+   },
+   "flavor": "Never misses. Never doubts."
+  },
+  {
+   "id": "aegis-aurora",
+   "category": "unique",
+   "name": "Aegis Aurora",
+   "base": "Champion Kite Shield",
+   "slot": "offhand",
+   "tier": 5,
+   "cost": 12,
+   "tags": [
+    "armour",
+    "es",
+    "block"
+   ],
+   "stats": {
+    "armour": 600,
+    "es": 250,
+    "block": 20,
+    "maxRes": 2,
+    "regen": 1
+   },
+   "flavor": "The light shields all who stand within it."
+  },
+  {
+   "id": "drillneck",
+   "category": "unique",
+   "name": "Drillneck",
+   "base": "Penetrating Arrow Quiver",
+   "slot": "offhand",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "bow",
+    "projectile",
+    "physical"
+   ],
+   "stats": {
+    "flatDamage": 30,
+    "incDamage": 40,
+    "life": 60
+   }
+  },
+  {
+   "id": "hyrris-bite",
+   "category": "unique",
+   "name": "Hyrri's Bite",
+   "base": "Sharktooth Arrow Quiver",
+   "slot": "offhand",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "bow",
+    "cold",
+    "attack"
+   ],
+   "stats": {
+    "flatDamage": 25,
+    "incSpeed": 10,
+    "life": 40
+   }
+  },
+  {
+   "id": "goldrim",
+   "category": "unique",
+   "name": "Goldrim",
+   "base": "Leather Cap",
+   "slot": "helmet",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "resist",
+    "leveling"
+   ],
+   "stats": {
+    "evasion": 60,
+    "resAll": 30
+   },
+   "flavor": "No metal slips as easily through the fingers as gold."
+  },
+  {
+   "id": "heatshiver",
+   "category": "unique",
+   "name": "Heatshiver",
+   "base": "Leather Hood",
+   "slot": "helmet",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "fire",
+    "cold"
+   ],
+   "stats": {
+    "incDamage": 40,
+    "evasion": 100,
+    "resFire": 15,
+    "resCold": 15
+   },
+   "flavor": "Fire the forge, freeze the mold."
+  },
+  {
+   "id": "starkonjas-head",
+   "category": "unique",
+   "name": "Starkonja's Head",
+   "base": "Silken Hood",
+   "slot": "helmet",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "attack",
+    "crit",
+    "speed"
+   ],
+   "stats": {
+    "life": 100,
+    "incSpeed": 10,
+    "critChance": 10,
+    "evasion": 200
+   },
+   "flavor": "There was no hero made out of Starkonja's death."
+  },
+  {
+   "id": "devotos-devotion",
+   "category": "unique",
+   "name": "Devoto's Devotion",
+   "base": "Nightmare Bascinet",
+   "slot": "helmet",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "attack",
+    "speed"
+   ],
+   "stats": {
+    "incSpeed": 16,
+    "evasion": 300,
+    "resChaos": 20
+   },
+   "flavor": "Swift as thought are the actions of man."
+  },
+  {
+   "id": "abyssus",
+   "category": "unique",
+   "name": "Abyssus",
+   "base": "Ezomyte Burgonet",
+   "slot": "helmet",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "attack",
+    "physical",
+    "crit"
+   ],
+   "stats": {
+    "flatDamage": 40,
+    "critMulti": 100,
+    "moreDamage": 20,
+    "armour": 300,
+    "life": -80
+   },
+   "flavor": "Great power at a great cost."
+  },
+  {
+   "id": "rats-nest",
+   "category": "unique",
+   "name": "Rat's Nest",
+   "base": "Ursine Pelt",
+   "slot": "helmet",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "attack",
+    "crit",
+    "speed"
+   ],
+   "stats": {
+    "critChance": 15,
+    "incSpeed": 10,
+    "evasion": 250
+   }
+  },
+  {
+   "id": "the-baron",
+   "category": "unique",
+   "name": "The Baron",
+   "base": "Close Helmet",
+   "slot": "helmet",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "minion"
+   ],
+   "stats": {
+    "incDamage": 40,
+    "life": 60,
+    "leech": 0.5
+   },
+   "flavor": "A crown fit for a king of bones."
+  },
+  {
+   "id": "alphas-howl",
+   "category": "unique",
+   "name": "Alpha's Howl",
+   "base": "Sinner Tricorne",
+   "slot": "helmet",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "aura",
+    "cold"
+   ],
+   "stats": {
+    "evasion": 300,
+    "resCold": 25,
+    "incDamage": 25
+   }
+  },
+  {
+   "id": "heretics-veil",
+   "category": "unique",
+   "name": "Heretic's Veil",
+   "base": "Deicide Mask",
+   "slot": "helmet",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "es",
+    "curse",
+    "chaos"
+   ],
+   "stats": {
+    "es": 120,
+    "evasion": 150,
+    "incDamage": 30
+   }
+  },
+  {
+   "id": "crown-of-the-inward-eye",
+   "category": "unique",
+   "name": "Crown of the Inward Eye",
+   "base": "Prophet Crown",
+   "slot": "helmet",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "life",
+    "es",
+    "spell"
+   ],
+   "stats": {
+    "life": 120,
+    "es": 150,
+    "incDamage": 33
+   },
+   "flavor": "Transcendence found from within."
+  },
+  {
+   "id": "the-devouring-diadem",
+   "category": "unique",
+   "name": "The Devouring Diadem",
+   "base": "Necromancer Circlet",
+   "slot": "helmet",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "es",
+    "minion",
+    "spell"
+   ],
+   "stats": {
+    "es": 180,
+    "flagEB": 1,
+    "incDamage": 30,
+    "leech": 0.5
+   },
+   "flavor": "The spirit hungers."
+  },
+  {
+   "id": "indigon",
+   "category": "unique",
+   "name": "Indigon",
+   "base": "Hubris Circlet",
+   "slot": "helmet",
+   "tier": 5,
+   "cost": 12,
+   "tags": [
+    "spell",
+    "mana"
+   ],
+   "stats": {
+    "es": 150,
+    "incDamage": 90
+   },
+   "flavor": "Wealth is power. Spend it."
+  },
+  {
+   "id": "tabula-rasa",
+   "category": "unique",
+   "name": "Tabula Rasa",
+   "base": "Simple Robe",
+   "slot": "body",
+   "tier": 1,
+   "cost": 3,
+   "tags": [
+    "leveling"
+   ],
+   "stats": {
+    "incDamage": 45
+   },
+   "flavor": "A blank page. Write your own legend."
+  },
+  {
+   "id": "cherrubims-maleficence",
+   "category": "unique",
+   "name": "Cherrubim's Maleficence",
+   "base": "Triumphant Lamellar",
+   "slot": "body",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "chaos",
+    "leech"
+   ],
+   "stats": {
+    "life": 100,
+    "leech": 1.5,
+    "incDamage": 30
+   }
+  },
+  {
+   "id": "belly-of-the-beast",
+   "category": "unique",
+   "name": "Belly of the Beast",
+   "base": "Full Wyrmscale",
+   "slot": "body",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "life"
+   ],
+   "stats": {
+    "incLife": 35,
+    "resAll": 10,
+    "armour": 300
+   },
+   "flavor": "The safest place is in the belly of the beast."
+  },
+  {
+   "id": "cloak-of-defiance",
+   "category": "unique",
+   "name": "Cloak of Defiance",
+   "base": "Lacquered Garb",
+   "slot": "body",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "mana",
+    "es"
+   ],
+   "stats": {
+    "flagMoM": 1,
+    "es": 100,
+    "evasion": 200
+   },
+   "flavor": "Mind over matter."
+  },
+  {
+   "id": "carcass-jack",
+   "category": "unique",
+   "name": "Carcass Jack",
+   "base": "Varnished Coat",
+   "slot": "body",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "aoe"
+   ],
+   "stats": {
+    "life": 100,
+    "es": 80,
+    "incDamage": 40
+   },
+   "flavor": "The safest armour is your enemy's corpse."
+  },
+  {
+   "id": "queen-of-the-forest",
+   "category": "unique",
+   "name": "Queen of the Forest",
+   "base": "Destiny Leather",
+   "slot": "body",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "evasion",
+    "speed"
+   ],
+   "stats": {
+    "evasion": 1200,
+    "life": 80,
+    "resAll": 8
+   },
+   "flavor": "The forest queen moves unseen."
+  },
+  {
+   "id": "kintsugi",
+   "category": "unique",
+   "name": "Kintsugi",
+   "base": "Exquisite Leather",
+   "slot": "body",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "evasion"
+   ],
+   "stats": {
+    "evasion": 800,
+    "life": 100,
+    "moreDamage": -5,
+    "block": 8
+   },
+   "flavor": "What is broken can be made more beautiful for having broken."
+  },
+  {
+   "id": "tinkerskin",
+   "category": "unique",
+   "name": "Tinkerskin",
+   "base": "Sadist Garb",
+   "slot": "body",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "trap",
+    "life",
+    "es"
+   ],
+   "stats": {
+    "life": 120,
+    "es": 120,
+    "incDamage": 35
+   }
+  },
+  {
+   "id": "lightning-coil",
+   "category": "unique",
+   "name": "Lightning Coil",
+   "base": "Desert Brigandine",
+   "slot": "body",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "lightning",
+    "physical"
+   ],
+   "stats": {
+    "life": 90,
+    "armour": 400,
+    "resLightning": -30,
+    "moreDamage": -5,
+    "evasion": 300,
+    "resAll": 12
+   },
+   "flavor": "There's nothing like the smell of a fresh storm."
+  },
+  {
+   "id": "loreweave",
+   "category": "unique",
+   "name": "Loreweave",
+   "base": "Elegant Ringmail",
+   "slot": "body",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "elemental",
+    "crit"
+   ],
+   "stats": {
+    "maxRes": 3,
+    "incDamage": 40,
+    "life": 80,
+    "critChance": 10
+   },
+   "flavor": "The world is a book, and those who do not travel read only one page."
+  },
+  {
+   "id": "inpulsas-broken-heart",
+   "category": "unique",
+   "name": "Inpulsa's Broken Heart",
+   "base": "Sadist Garb",
+   "slot": "body",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "lightning"
+   ],
+   "stats": {
+    "life": 100,
+    "incDamage": 50,
+    "resLightning": 30
+   },
+   "flavor": "Loyalty unto death, and beyond."
+  },
+  {
+   "id": "the-brass-dome",
+   "category": "unique",
+   "name": "The Brass Dome",
+   "base": "Gladiator Plate",
+   "slot": "body",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "armour"
+   ],
+   "stats": {
+    "armour": 2500,
+    "maxRes": 5,
+    "critMulti": -50
+   },
+   "flavor": "The turtle wins the war."
+  },
+  {
+   "id": "deaths-oath",
+   "category": "unique",
+   "name": "Death's Oath",
+   "base": "Astral Plate",
+   "slot": "body",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "chaos",
+    "dot",
+    "aura"
+   ],
+   "stats": {
+    "life": 90,
+    "armour": 500,
+    "incDamage": 45,
+    "dotMulti": 15
+   },
+   "flavor": "Bear this burden and its gifts, until death do you part."
+  },
+  {
+   "id": "shavronnes-wrappings",
+   "category": "unique",
+   "name": "Shavronne's Wrappings",
+   "base": "Occultist's Vestment",
+   "slot": "body",
+   "tier": 5,
+   "cost": 12,
+   "tags": [
+    "es",
+    "lowlife",
+    "lightning"
+   ],
+   "stats": {
+    "es": 350,
+    "incEs": 20,
+    "flagLowLife": 1
+   },
+   "flavor": "Shavronne's apparel became ever more extravagant as her flesh degraded."
+  },
+  {
+   "id": "kaoms-heart",
+   "category": "unique",
+   "name": "Kaom's Heart",
+   "base": "Glorious Plate",
+   "slot": "body",
+   "tier": 5,
+   "cost": 12,
+   "tags": [
+    "life",
+    "fire"
+   ],
+   "stats": {
+    "life": 500
+   },
+   "flavor": "The warrior who fears will fall."
+  },
+  {
+   "id": "farruls-fur",
+   "category": "unique",
+   "name": "Farrul's Fur",
+   "base": "Triumphant Lamellar",
+   "slot": "body",
+   "tier": 5,
+   "cost": 12,
+   "tags": [
+    "attack",
+    "speed",
+    "crit"
+   ],
+   "stats": {
+    "life": 150,
+    "evasion": 600,
+    "incSpeed": 15,
+    "critChance": 15
+   },
+   "flavor": "The First of the Plains stalks the night."
+  },
+  {
+   "id": "lochtonial-caress",
+   "category": "unique",
+   "name": "Lochtonial Caress",
+   "base": "Iron Gauntlets",
+   "slot": "gloves",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "leveling",
+    "speed"
+   ],
+   "stats": {
+    "incSpeed": 10,
+    "life": 30
+   }
+  },
+  {
+   "id": "ondars-clasp",
+   "category": "unique",
+   "name": "Ondar's Clasp",
+   "base": "Wrapped Mitts",
+   "slot": "gloves",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "attack",
+    "speed",
+    "lowlife"
+   ],
+   "stats": {
+    "incSpeed": 20,
+    "flatDamage": 10
+   },
+   "flavor": "Swift as the strike of a serpent."
+  },
+  {
+   "id": "hrimsorrow",
+   "category": "unique",
+   "name": "Hrimsorrow",
+   "base": "Goathide Gloves",
+   "slot": "gloves",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "cold",
+    "physical"
+   ],
+   "stats": {
+    "resCold": 25,
+    "evasion": 100,
+    "incDamage": 25
+   },
+   "flavor": "Sorrow freezes all it touches."
+  },
+  {
+   "id": "winds-of-change",
+   "category": "unique",
+   "name": "Winds of Change",
+   "base": "Ancient Gauntlets",
+   "slot": "gloves",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "projectile",
+    "speed"
+   ],
+   "stats": {
+    "life": 60,
+    "incDamage": 30
+   }
+  },
+  {
+   "id": "southbound",
+   "category": "unique",
+   "name": "Southbound",
+   "base": "Soldier Gloves",
+   "slot": "gloves",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "cold",
+    "life"
+   ],
+   "stats": {
+    "life": 90,
+    "resCold": 25,
+    "incDamage": 20
+   }
+  },
+  {
+   "id": "facebreaker",
+   "category": "unique",
+   "name": "Facebreaker",
+   "base": "Strapped Mitts",
+   "slot": "gloves",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "attack",
+    "physical",
+    "unarmed"
+   ],
+   "stats": {
+    "moreDamage": 40,
+    "critMulti": 30
+   },
+   "flavor": "Fear no weapon. Become one."
+  },
+  {
+   "id": "maligaros-virtuosity",
+   "category": "unique",
+   "name": "Maligaro's Virtuosity",
+   "base": "Deerskin Gloves",
+   "slot": "gloves",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "attack",
+    "crit",
+    "speed"
+   ],
+   "stats": {
+    "critChance": 20,
+    "incSpeed": 10,
+    "critMulti": 20
+   },
+   "flavor": "Skill unmarred by conscience."
+  },
+  {
+   "id": "grip-of-the-council",
+   "category": "unique",
+   "name": "Grip of the Council",
+   "base": "Arcanist Gloves",
+   "slot": "gloves",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "minion",
+    "cold"
+   ],
+   "stats": {
+    "life": 70,
+    "incDamage": 35,
+    "resCold": 20
+   },
+   "flavor": "The dead serve the living."
+  },
+  {
+   "id": "atziris-acuity",
+   "category": "unique",
+   "name": "Atziri's Acuity",
+   "base": "Vaal Gauntlets",
+   "slot": "gloves",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "attack",
+    "crit",
+    "leech"
+   ],
+   "stats": {
+    "life": 80,
+    "critChance": 15,
+    "leech": 2
+   },
+   "flavor": "Snip. Snip. Snip."
+  },
+  {
+   "id": "asenaths-gentle-touch",
+   "category": "unique",
+   "name": "Asenath's Gentle Touch",
+   "base": "Silk Gloves",
+   "slot": "gloves",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "spell",
+    "curse"
+   ],
+   "stats": {
+    "life": 80,
+    "es": 80,
+    "incDamage": 40
+   },
+   "flavor": "A gentle hand can push a man off a cliff just as easily."
+  },
+  {
+   "id": "doryanis-fist",
+   "category": "unique",
+   "name": "Doryani's Fist",
+   "base": "Vaal Gauntlets",
+   "slot": "gloves",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "lightning",
+    "spell",
+    "unarmed"
+   ],
+   "stats": {
+    "flatDamage": 60,
+    "es": 80,
+    "resLightning": 20
+   },
+   "flavor": "The power of a god in the palm of your hand."
+  },
+  {
+   "id": "wanderlust",
+   "category": "unique",
+   "name": "Wanderlust",
+   "base": "Wool Shoes",
+   "slot": "boots",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "leveling",
+    "speed"
+   ],
+   "stats": {
+    "es": 30,
+    "regen": 0.5
+   },
+   "flavor": "All the world is my home."
+  },
+  {
+   "id": "wondertrap",
+   "category": "unique",
+   "name": "Wondertrap",
+   "base": "Velvet Slippers",
+   "slot": "boots",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "es",
+    "leveling"
+   ],
+   "stats": {
+    "es": 40,
+    "resAll": 5
+   }
+  },
+  {
+   "id": "rainbowstride",
+   "category": "unique",
+   "name": "Rainbowstride",
+   "base": "Conjurer Boots",
+   "slot": "boots",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "resist",
+    "block"
+   ],
+   "stats": {
+    "resAll": 12,
+    "es": 60,
+    "block": 5
+   },
+   "flavor": "The mind is its own place."
+  },
+  {
+   "id": "sin-trek",
+   "category": "unique",
+   "name": "Sin Trek",
+   "base": "Stealth Boots",
+   "slot": "boots",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "evasion",
+    "es"
+   ],
+   "stats": {
+    "evasion": 250,
+    "es": 80
+   }
+  },
+  {
+   "id": "atziris-step",
+   "category": "unique",
+   "name": "Atziri's Step",
+   "base": "Slink Boots",
+   "slot": "boots",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "evasion",
+    "suppress"
+   ],
+   "stats": {
+    "evasion": 350,
+    "life": 70,
+    "suppress": 25
+   },
+   "flavor": "Walk without rhythm."
+  },
+  {
+   "id": "kaoms-roots",
+   "category": "unique",
+   "name": "Kaom's Roots",
+   "base": "Titan Greaves",
+   "slot": "boots",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "life",
+    "armour"
+   ],
+   "stats": {
+    "life": 180,
+    "armour": 300
+   },
+   "flavor": "Roots that grip the mountain cannot be moved."
+  },
+  {
+   "id": "the-stampede",
+   "category": "unique",
+   "name": "The Stampede",
+   "base": "Assassin's Boots",
+   "slot": "boots",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "speed",
+    "attack"
+   ],
+   "stats": {
+    "evasion": 200,
+    "incSpeed": 10,
+    "life": 60
+   },
+   "flavor": "The herd cannot be stopped."
+  },
+  {
+   "id": "bubonic-trail",
+   "category": "unique",
+   "name": "Bubonic Trail",
+   "base": "Murder Boots",
+   "slot": "boots",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "chaos",
+    "minion"
+   ],
+   "stats": {
+    "life": 80,
+    "incDamage": 30,
+    "moreDamage": 10
+   },
+   "flavor": "Death walks with every step."
+  },
+  {
+   "id": "ralakeshs-impatience",
+   "category": "unique",
+   "name": "Ralakesh's Impatience",
+   "base": "Riveted Boots",
+   "slot": "boots",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "crit",
+    "speed"
+   ],
+   "stats": {
+    "life": 70,
+    "critChance": 15,
+    "incSpeed": 8
+   },
+   "flavor": "The Lord of Shadows never waits."
+  },
+  {
+   "id": "skyforth",
+   "category": "unique",
+   "name": "Skyforth",
+   "base": "Sorcerer Boots",
+   "slot": "boots",
+   "tier": 5,
+   "cost": 12,
+   "tags": [
+    "mana",
+    "crit",
+    "es"
+   ],
+   "stats": {
+    "es": 100,
+    "critChance": 20,
+    "incDamage": 25
+   },
+   "flavor": "The world below is a distant memory."
+  },
+  {
+   "id": "wurms-molt",
+   "category": "unique",
+   "name": "Wurm's Molt",
+   "base": "Leather Belt",
+   "slot": "belt",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "leech",
+    "leveling"
+   ],
+   "stats": {
+    "life": 60,
+    "leech": 0.6,
+    "resCold": 10
+   },
+   "flavor": "Shed the past like dead skin."
+  },
+  {
+   "id": "meginords-girdle",
+   "category": "unique",
+   "name": "Meginord's Girdle",
+   "base": "Heavy Belt",
+   "slot": "belt",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "attack",
+    "physical",
+    "life"
+   ],
+   "stats": {
+    "flatDamage": 20,
+    "life": 90,
+    "regen": 0.5
+   },
+   "flavor": "Northern strength."
+  },
+  {
+   "id": "the-magnate",
+   "category": "unique",
+   "name": "The Magnate",
+   "base": "Studded Belt",
+   "slot": "belt",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "physical",
+    "resist"
+   ],
+   "stats": {
+    "incDamage": 30,
+    "resAll": 8,
+    "life": 50
+   }
+  },
+  {
+   "id": "belt-of-the-deceiver",
+   "category": "unique",
+   "name": "Belt of the Deceiver",
+   "base": "Heavy Belt",
+   "slot": "belt",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "attack",
+    "physical",
+    "crit"
+   ],
+   "stats": {
+    "life": 70,
+    "moreDamage": 8,
+    "resAll": 6
+   },
+   "flavor": "In battle, virtue is the first casualty."
+  },
+  {
+   "id": "immortal-flesh",
+   "category": "unique",
+   "name": "Immortal Flesh",
+   "base": "Leather Belt",
+   "slot": "belt",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "life",
+    "regen"
+   ],
+   "stats": {
+    "life": 100,
+    "regen": 3,
+    "armour": -200
+   },
+   "flavor": "Bones mend. Flesh endures."
+  },
+  {
+   "id": "doryanis-invitation",
+   "category": "unique",
+   "name": "Doryani's Invitation",
+   "base": "Heavy Belt",
+   "slot": "belt",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "elemental",
+    "leech"
+   ],
+   "stats": {
+    "incDamage": 35,
+    "leech": 0.8,
+    "resAll": 10
+   },
+   "flavor": "A gift from the Queen."
+  },
+  {
+   "id": "perseverance",
+   "category": "unique",
+   "name": "Perseverance",
+   "base": "Vanguard Belt",
+   "slot": "belt",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "attack",
+    "armour",
+    "evasion"
+   ],
+   "stats": {
+    "armour": 300,
+    "evasion": 300,
+    "life": 70,
+    "moreDamage": 8
+   }
+  },
+  {
+   "id": "soul-tether",
+   "category": "unique",
+   "name": "Soul Tether",
+   "base": "Cloth Belt",
+   "slot": "belt",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "es",
+    "leech",
+    "chaos"
+   ],
+   "stats": {
+    "es": 80,
+    "leech": 1,
+    "life": 60
+   },
+   "flavor": "The soul, stitched to the flesh."
+  },
+  {
+   "id": "ryslathas-coil",
+   "category": "unique",
+   "name": "Ryslatha's Coil",
+   "base": "Studded Belt",
+   "slot": "belt",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "attack",
+    "physical",
+    "life"
+   ],
+   "stats": {
+    "life": 100,
+    "moreDamage": 15
+   },
+   "flavor": "The Gull-mother wastes nothing."
+  },
+  {
+   "id": "cyclopean-coil",
+   "category": "unique",
+   "name": "Cyclopean Coil",
+   "base": "Leather Belt",
+   "slot": "belt",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "life",
+    "attribute"
+   ],
+   "stats": {
+    "life": 110,
+    "resAll": 8,
+    "incDamage": 20
+   }
+  },
+  {
+   "id": "headhunter",
+   "category": "unique",
+   "name": "Headhunter",
+   "base": "Leather Belt",
+   "slot": "belt",
+   "tier": 5,
+   "cost": 14,
+   "tags": [
+    "attack",
+    "speed",
+    "nemesis"
+   ],
+   "stats": {
+    "life": 120,
+    "flatDamage": 40,
+    "incSpeed": 20,
+    "moreDamage": 20
+   },
+   "flavor": "\"A man's soul rules from a cavern of bone… I steal the source of a great man's strength.\""
+  },
+  {
+   "id": "mageblood",
+   "category": "unique",
+   "name": "Mageblood",
+   "base": "Heavy Belt",
+   "slot": "belt",
+   "tier": 5,
+   "cost": 14,
+   "tags": [
+    "flask",
+    "resist"
+   ],
+   "stats": {
+    "life": 100,
+    "resAll": 20,
+    "incDamage": 35,
+    "incSpeed": 10
+   },
+   "flavor": "Ever alert. Ever perfect."
+  },
+  {
+   "id": "blackheart",
+   "category": "unique",
+   "name": "Blackheart",
+   "base": "Iron Ring",
+   "slot": "ring",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "chaos",
+    "physical"
+   ],
+   "stats": {
+    "flatDamage": 8,
+    "life": 30,
+    "resChaos": 10
+   },
+   "flavor": "Fear is a place of strength."
+  },
+  {
+   "id": "kaoms-sign",
+   "category": "unique",
+   "name": "Kaom's Sign",
+   "base": "Coral Ring",
+   "slot": "ring",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "life",
+    "regen"
+   ],
+   "stats": {
+    "life": 50,
+    "regen": 0.4
+   }
+  },
+  {
+   "id": "praxis",
+   "category": "unique",
+   "name": "Praxis",
+   "base": "Paua Ring",
+   "slot": "ring",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "mana",
+    "spell"
+   ],
+   "stats": {
+    "incDamage": 15,
+    "es": 25
+   }
+  },
+  {
+   "id": "le-heup-of-all",
+   "category": "unique",
+   "name": "Le Heup of All",
+   "base": "Iron Ring",
+   "slot": "ring",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "resist",
+    "attribute"
+   ],
+   "stats": {
+    "incDamage": 20,
+    "resAll": 12,
+    "life": 40
+   },
+   "flavor": "A ring of all things."
+  },
+  {
+   "id": "death-rush",
+   "category": "unique",
+   "name": "Death Rush",
+   "base": "Amethyst Ring",
+   "slot": "ring",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "attack",
+    "leech"
+   ],
+   "stats": {
+    "leech": 0.8,
+    "life": 50,
+    "resChaos": 15
+   }
+  },
+  {
+   "id": "bereks-grip",
+   "category": "unique",
+   "name": "Berek's Grip",
+   "base": "Two-Stone Ring",
+   "slot": "ring",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "cold",
+    "lightning",
+    "leech"
+   ],
+   "stats": {
+    "incDamage": 25,
+    "leech": 0.8,
+    "resCold": 15,
+    "resLightning": 15
+   },
+   "flavor": "\"Snake charmed and viper stole…\""
+  },
+  {
+   "id": "mings-heart",
+   "category": "unique",
+   "name": "Ming's Heart",
+   "base": "Amethyst Ring",
+   "slot": "ring",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "chaos",
+    "lowlife"
+   ],
+   "stats": {
+    "moreDamage": 12,
+    "resChaos": 25,
+    "life": -60
+   },
+   "flavor": "The dark heart beats twice."
+  },
+  {
+   "id": "call-of-the-brotherhood",
+   "category": "unique",
+   "name": "Call of the Brotherhood",
+   "base": "Two-Stone Ring",
+   "slot": "ring",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "lightning",
+    "cold"
+   ],
+   "stats": {
+    "incDamage": 30,
+    "resLightning": 15,
+    "resCold": 15
+   },
+   "flavor": "Winter's embrace, summer's spark."
+  },
+  {
+   "id": "essence-worm",
+   "category": "unique",
+   "name": "Essence Worm",
+   "base": "Unset Ring",
+   "slot": "ring",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "aura"
+   ],
+   "stats": {
+    "incDamage": 35
+   },
+   "flavor": "It hungers for the mind."
+  },
+  {
+   "id": "ventors-gamble",
+   "category": "unique",
+   "name": "Ventor's Gamble",
+   "base": "Gold Ring",
+   "slot": "ring",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "gamble"
+   ],
+   "stats": {
+    "life": 60,
+    "incDamage": 30,
+    "resAll": 10
+   },
+   "flavor": "A life of chance. A death of certainty."
+  },
+  {
+   "id": "mark-of-the-elder",
+   "category": "unique",
+   "name": "Mark of the Elder",
+   "base": "Steel Ring",
+   "slot": "ring",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "attack",
+    "cold"
+   ],
+   "stats": {
+    "life": 70,
+    "moreDamage": 20
+   },
+   "flavor": "The void stares back."
+  },
+  {
+   "id": "mark-of-the-shaper",
+   "category": "unique",
+   "name": "Mark of the Shaper",
+   "base": "Opal Ring",
+   "slot": "ring",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "spell"
+   ],
+   "stats": {
+    "life": 70,
+    "moreDamage": 20
+   },
+   "flavor": "Dreams die last."
+  },
+  {
+   "id": "the-taming",
+   "category": "unique",
+   "name": "The Taming",
+   "base": "Prismatic Ring",
+   "slot": "ring",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "elemental",
+    "ailment"
+   ],
+   "stats": {
+    "incDamage": 40,
+    "resAll": 15
+   },
+   "flavor": "All things can be tamed."
+  },
+  {
+   "id": "original-sin",
+   "category": "unique",
+   "name": "Original Sin",
+   "base": "Amethyst Ring",
+   "slot": "ring",
+   "tier": 5,
+   "cost": 13,
+   "tags": [
+    "chaos",
+    "elemental"
+   ],
+   "stats": {
+    "incDamage": 50,
+    "moreDamage": 25,
+    "resChaos": 30
+   },
+   "flavor": "Sin is the seed of every virtue."
+  },
+  {
+   "id": "araku-tiki",
+   "category": "unique",
+   "name": "Araku Tiki",
+   "base": "Coral Amulet",
+   "slot": "amulet",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "life",
+    "fire",
+    "leveling"
+   ],
+   "stats": {
+    "life": 60,
+    "resFire": 20,
+    "regen": 0.5
+   },
+   "flavor": "The charm of the tribe."
+  },
+  {
+   "id": "the-ignomon",
+   "category": "unique",
+   "name": "The Ignomon",
+   "base": "Gold Amulet",
+   "slot": "amulet",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "fire",
+    "attack"
+   ],
+   "stats": {
+    "flatDamage": 12,
+    "resFire": 15,
+    "evasion": 80
+   },
+   "flavor": "A light that never goes out."
+  },
+  {
+   "id": "atziris-foible",
+   "category": "unique",
+   "name": "Atziri's Foible",
+   "base": "Paua Amulet",
+   "slot": "amulet",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "mana",
+    "leveling"
+   ],
+   "stats": {
+    "es": 50,
+    "incDamage": 15,
+    "regen": 0.5
+   },
+   "flavor": "Everything has a price."
+  },
+  {
+   "id": "ungils-harmony",
+   "category": "unique",
+   "name": "Ungil's Harmony",
+   "base": "Turquoise Amulet",
+   "slot": "amulet",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "crit",
+    "block"
+   ],
+   "stats": {
+    "critChance": -100,
+    "moreDamage": 25,
+    "life": 60
+   },
+   "flavor": "Balance in all things."
+  },
+  {
+   "id": "karui-ward",
+   "category": "unique",
+   "name": "Karui Ward",
+   "base": "Jade Amulet",
+   "slot": "amulet",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "projectile",
+    "speed"
+   ],
+   "stats": {
+    "incDamage": 25,
+    "evasion": 100,
+    "life": 40
+   }
+  },
+  {
+   "id": "astramentis",
+   "category": "unique",
+   "name": "Astramentis",
+   "base": "Onyx Amulet",
+   "slot": "amulet",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "attribute"
+   ],
+   "stats": {
+    "incDamage": 35,
+    "life": 70,
+    "flatDamage": 15
+   },
+   "flavor": "The mind has a thousand eyes."
+  },
+  {
+   "id": "carnage-heart",
+   "category": "unique",
+   "name": "Carnage Heart",
+   "base": "Onyx Amulet",
+   "slot": "amulet",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "leech",
+    "lowlife"
+   ],
+   "stats": {
+    "leech": 1.5,
+    "resAll": 10,
+    "incDamage": 20
+   },
+   "flavor": "Rip and tear, and be nourished."
+  },
+  {
+   "id": "eye-of-chayula",
+   "category": "unique",
+   "name": "Eye of Chayula",
+   "base": "Onyx Amulet",
+   "slot": "amulet",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "chaos",
+    "es"
+   ],
+   "stats": {
+    "life": -40,
+    "es": 80,
+    "resChaos": 20,
+    "moreDamage": 8
+   },
+   "flavor": "Never blinking, always watching."
+  },
+  {
+   "id": "the-pandemonius",
+   "category": "unique",
+   "name": "The Pandemonius",
+   "base": "Jade Amulet",
+   "slot": "amulet",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "cold"
+   ],
+   "stats": {
+    "incDamage": 45,
+    "penetration": 10,
+    "evasion": 150
+   },
+   "flavor": "Chaos is a ladder."
+  },
+  {
+   "id": "xophs-blood",
+   "category": "unique",
+   "name": "Xoph's Blood",
+   "base": "Amber Amulet",
+   "slot": "amulet",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "fire",
+    "life"
+   ],
+   "stats": {
+    "incLife": 10,
+    "incDamage": 40,
+    "penetration": 10
+   },
+   "flavor": "The heart of the flame."
+  },
+  {
+   "id": "ashes-of-the-stars",
+   "category": "unique",
+   "name": "Ashes of the Stars",
+   "base": "Onyx Amulet",
+   "slot": "amulet",
+   "tier": 5,
+   "cost": 12,
+   "tags": [
+    "gem",
+    "all"
+   ],
+   "stats": {
+    "incDamage": 40,
+    "moreDamage": 20,
+    "resAll": 10
+   },
+   "flavor": "All men burn out. Few become stars."
+  },
+  {
+   "id": "crystallised-omniscience",
+   "category": "unique",
+   "name": "Crystallised Omniscience",
+   "base": "Onyx Amulet",
+   "slot": "amulet",
+   "tier": 5,
+   "cost": 12,
+   "tags": [
+    "attribute",
+    "elemental"
+   ],
+   "stats": {
+    "incDamage": 45,
+    "penetration": 12,
+    "resAll": 15
+   },
+   "flavor": "To know all is to be all."
+  },
+  {
+   "id": "rotgut",
+   "category": "unique",
+   "name": "Rotgut",
+   "base": "Quicksilver Flask",
+   "slot": "flask",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "speed",
+    "flask"
+   ],
+   "stats": {
+    "incSpeed": 12,
+    "evasion": 100
+   },
+   "flavor": "Down the hatch, up the pace."
+  },
+  {
+   "id": "atziris-promise",
+   "category": "unique",
+   "name": "Atziri's Promise",
+   "base": "Amethyst Flask",
+   "slot": "flask",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "chaos",
+    "leech",
+    "flask"
+   ],
+   "stats": {
+    "moreDamage": 12,
+    "leech": 0.5,
+    "resChaos": 20
+   },
+   "flavor": "A taste of what awaits."
+  },
+  {
+   "id": "forbidden-taste",
+   "category": "unique",
+   "name": "Forbidden Taste",
+   "base": "Quartz Flask",
+   "slot": "flask",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "life",
+    "chaos",
+    "flask"
+   ],
+   "stats": {
+    "life": 80,
+    "regen": 1
+   },
+   "flavor": "One sip is never enough."
+  },
+  {
+   "id": "blood-of-the-karui",
+   "category": "unique",
+   "name": "Blood of the Karui",
+   "base": "Sanctified Life Flask",
+   "slot": "flask",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "life",
+    "regen",
+    "flask"
+   ],
+   "stats": {
+    "life": 60,
+    "regen": 2
+   },
+   "flavor": "Kaom's strength flows in the blood."
+  },
+  {
+   "id": "lions-roar",
+   "category": "unique",
+   "name": "Lion's Roar",
+   "base": "Granite Flask",
+   "slot": "flask",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "attack",
+    "physical",
+    "flask"
+   ],
+   "stats": {
+    "armour": 600,
+    "moreDamage": 15
+   },
+   "flavor": "The roar that shakes the jungle."
+  },
+  {
+   "id": "rumis-concoction",
+   "category": "unique",
+   "name": "Rumi's Concoction",
+   "base": "Granite Flask",
+   "slot": "flask",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "block",
+    "armour",
+    "flask"
+   ],
+   "stats": {
+    "armour": 500,
+    "block": 10
+   },
+   "flavor": "A strange brew of stone and spirit."
+  },
+  {
+   "id": "the-wise-oak",
+   "category": "unique",
+   "name": "The Wise Oak",
+   "base": "Bismuth Flask",
+   "slot": "flask",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "elemental",
+    "resist",
+    "flask"
+   ],
+   "stats": {
+    "resAll": 12,
+    "penetration": 8
+   },
+   "flavor": "The wise oak bends with the storm."
+  },
+  {
+   "id": "divination-distillate",
+   "category": "unique",
+   "name": "Divination Distillate",
+   "base": "Large Hybrid Flask",
+   "slot": "flask",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "gamble",
+    "flask"
+   ],
+   "stats": {
+    "life": 40,
+    "es": 40,
+    "incDamage": 20
+   },
+   "flavor": "Fortune favours the flask."
+  },
+  {
+   "id": "taste-of-hate",
+   "category": "unique",
+   "name": "Taste of Hate",
+   "base": "Sapphire Flask",
+   "slot": "flask",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "cold",
+    "physical",
+    "flask"
+   ],
+   "stats": {
+    "moreDamage": 15,
+    "resCold": 30,
+    "armour": 200
+   },
+   "flavor": "Hatred is a cold, sweet wine."
+  },
+  {
+   "id": "dying-sun",
+   "category": "unique",
+   "name": "Dying Sun",
+   "base": "Ruby Flask",
+   "slot": "flask",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "fire",
+    "aoe",
+    "projectile",
+    "flask"
+   ],
+   "stats": {
+    "moreDamage": 18,
+    "resFire": 30
+   },
+   "flavor": "Even the sun sets."
+  },
+  {
+   "id": "bottled-faith",
+   "category": "unique",
+   "name": "Bottled Faith",
+   "base": "Sulphur Flask",
+   "slot": "flask",
+   "tier": 5,
+   "cost": 11,
+   "tags": [
+    "crit",
+    "spell",
+    "flask"
+   ],
+   "stats": {
+    "moreDamage": 20,
+    "critChance": 15,
+    "regen": 1
+   },
+   "flavor": "Faith, distilled and weaponised."
+  },
+  {
+   "id": "progenesis",
+   "category": "unique",
+   "name": "Progenesis",
+   "base": "Amethyst Flask",
+   "slot": "flask",
+   "tier": 5,
+   "cost": 12,
+   "tags": [
+    "life",
+    "flask"
+   ],
+   "stats": {
+    "life": 100,
+    "regen": 2,
+    "moreDamage": 10
+   },
+   "flavor": "The first life remembers all lives."
+  },
+  {
+   "id": "fireball",
+   "category": "skill",
+   "name": "Fireball",
+   "base": "Skill Gem",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "spell",
+    "fire",
+    "projectile"
+   ],
+   "stats": {
+    "baseDamage": 60,
+    "baseSpeed": 1.2,
+    "baseCrit": 6
+   },
+   "flavor": "The poster child of Wraeclast."
+  },
+  {
+   "id": "freezing-pulse",
+   "category": "skill",
+   "name": "Freezing Pulse",
+   "base": "Skill Gem",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "spell",
+    "cold",
+    "projectile"
+   ],
+   "stats": {
+    "baseDamage": 55,
+    "baseSpeed": 1.3,
+    "baseCrit": 6
+   }
+  },
+  {
+   "id": "spark",
+   "category": "skill",
+   "name": "Spark",
+   "base": "Skill Gem",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "spell",
+    "lightning",
+    "projectile"
+   ],
+   "stats": {
+    "baseDamage": 45,
+    "baseSpeed": 1.4,
+    "baseCrit": 6
+   },
+   "flavor": "Bounces so you don't have to aim."
+  },
+  {
+   "id": "heavy-strike",
+   "category": "skill",
+   "name": "Heavy Strike",
+   "base": "Skill Gem",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "attack",
+    "physical",
+    "melee"
+   ],
+   "stats": {
+    "baseDamage": 70,
+    "baseSpeed": 0.9,
+    "baseCrit": 5
+   }
+  },
+  {
+   "id": "split-arrow",
+   "category": "skill",
+   "name": "Split Arrow",
+   "base": "Skill Gem",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "attack",
+    "bow",
+    "physical",
+    "projectile"
+   ],
+   "stats": {
+    "baseDamage": 50,
+    "baseSpeed": 1.3,
+    "baseCrit": 5
+   }
+  },
+  {
+   "id": "molten-strike",
+   "category": "skill",
+   "name": "Molten Strike",
+   "base": "Skill Gem",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "attack",
+    "fire",
+    "melee",
+    "projectile"
+   ],
+   "stats": {
+    "baseDamage": 55,
+    "baseSpeed": 1.1,
+    "baseCrit": 5
+   },
+   "flavor": "The ground is lava."
+  },
+  {
+   "id": "raise-zombie",
+   "category": "skill",
+   "name": "Raise Zombie",
+   "base": "Skill Gem",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "minion",
+    "spell"
+   ],
+   "stats": {
+    "baseDamage": 50,
+    "baseSpeed": 1,
+    "baseCrit": 0
+   },
+   "flavor": "Your first friend in Wraeclast."
+  },
+  {
+   "id": "cleave",
+   "category": "skill",
+   "name": "Cleave",
+   "base": "Skill Gem",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "attack",
+    "physical",
+    "melee",
+    "aoe"
+   ],
+   "stats": {
+    "baseDamage": 55,
+    "baseSpeed": 1.1,
+    "baseCrit": 5
+   }
+  },
+  {
+   "id": "ground-slam",
+   "category": "skill",
+   "name": "Ground Slam",
+   "base": "Skill Gem",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "attack",
+    "physical",
+    "melee",
+    "aoe"
+   ],
+   "stats": {
+    "baseDamage": 60,
+    "baseSpeed": 1,
+    "baseCrit": 5
+   }
+  },
+  {
+   "id": "ice-nova",
+   "category": "skill",
+   "name": "Ice Nova",
+   "base": "Skill Gem",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "spell",
+    "cold",
+    "aoe"
+   ],
+   "stats": {
+    "baseDamage": 55,
+    "baseSpeed": 1.1,
+    "baseCrit": 6
+   }
+  },
+  {
+   "id": "firestorm",
+   "category": "skill",
+   "name": "Firestorm",
+   "base": "Skill Gem",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "spell",
+    "fire",
+    "aoe",
+    "duration"
+   ],
+   "stats": {
+    "baseDamage": 50,
+    "baseSpeed": 1.1,
+    "baseCrit": 6
+   }
+  },
+  {
+   "id": "double-strike",
+   "category": "skill",
+   "name": "Double Strike",
+   "base": "Skill Gem",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "attack",
+    "physical",
+    "melee"
+   ],
+   "stats": {
+    "baseDamage": 50,
+    "baseSpeed": 1.4,
+    "baseCrit": 5
+   }
+  },
+  {
+   "id": "caustic-arrow",
+   "category": "skill",
+   "name": "Caustic Arrow",
+   "base": "Skill Gem",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "attack",
+    "bow",
+    "chaos",
+    "dot",
+    "aoe"
+   ],
+   "stats": {
+    "baseDamage": 55,
+    "baseSpeed": 1.1,
+    "baseCrit": 0
+   }
+  },
+  {
+   "id": "summon-raging-spirit",
+   "category": "skill",
+   "name": "Summon Raging Spirit",
+   "base": "Skill Gem",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "minion",
+    "spell",
+    "fire"
+   ],
+   "stats": {
+    "baseDamage": 45,
+    "baseSpeed": 1.4,
+    "baseCrit": 0
+   },
+   "flavor": "Screaming skulls. What could go wrong?"
+  },
+  {
+   "id": "arc",
+   "category": "skill",
+   "name": "Arc",
+   "base": "Skill Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "spell",
+    "lightning",
+    "chain"
+   ],
+   "stats": {
+    "baseDamage": 70,
+    "baseSpeed": 1.2,
+    "baseCrit": 6
+   },
+   "flavor": "The lazy exile's lightning."
+  },
+  {
+   "id": "lightning-arrow",
+   "category": "skill",
+   "name": "Lightning Arrow",
+   "base": "Skill Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "attack",
+    "bow",
+    "lightning",
+    "projectile"
+   ],
+   "stats": {
+    "baseDamage": 65,
+    "baseSpeed": 1.3,
+    "baseCrit": 6
+   }
+  },
+  {
+   "id": "ice-shot",
+   "category": "skill",
+   "name": "Ice Shot",
+   "base": "Skill Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "attack",
+    "bow",
+    "cold",
+    "projectile",
+    "aoe"
+   ],
+   "stats": {
+    "baseDamage": 65,
+    "baseSpeed": 1.25,
+    "baseCrit": 6
+   }
+  },
+  {
+   "id": "frost-blades",
+   "category": "skill",
+   "name": "Frost Blades",
+   "base": "Skill Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "attack",
+    "cold",
+    "melee",
+    "projectile"
+   ],
+   "stats": {
+    "baseDamage": 60,
+    "baseSpeed": 1.4,
+    "baseCrit": 6
+   }
+  },
+  {
+   "id": "lightning-strike",
+   "category": "skill",
+   "name": "Lightning Strike",
+   "base": "Skill Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "attack",
+    "lightning",
+    "melee",
+    "projectile"
+   ],
+   "stats": {
+    "baseDamage": 65,
+    "baseSpeed": 1.3,
+    "baseCrit": 6
+   }
+  },
+  {
+   "id": "smite",
+   "category": "skill",
+   "name": "Smite",
+   "base": "Skill Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "attack",
+    "lightning",
+    "melee",
+    "aoe"
+   ],
+   "stats": {
+    "baseDamage": 70,
+    "baseSpeed": 1.1,
+    "baseCrit": 5
+   }
+  },
+  {
+   "id": "sunder",
+   "category": "skill",
+   "name": "Sunder",
+   "base": "Skill Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "attack",
+    "physical",
+    "melee",
+    "aoe"
+   ],
+   "stats": {
+    "baseDamage": 70,
+    "baseSpeed": 1,
+    "baseCrit": 5
+   },
+   "flavor": "The earth splits at your command."
+  },
+  {
+   "id": "spectral-throw",
+   "category": "skill",
+   "name": "Spectral Throw",
+   "base": "Skill Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "attack",
+    "physical",
+    "projectile"
+   ],
+   "stats": {
+    "baseDamage": 55,
+    "baseSpeed": 1.4,
+    "baseCrit": 5
+   }
+  },
+  {
+   "id": "ethereal-knives",
+   "category": "skill",
+   "name": "Ethereal Knives",
+   "base": "Skill Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "spell",
+    "physical",
+    "projectile"
+   ],
+   "stats": {
+    "baseDamage": 65,
+    "baseSpeed": 1.3,
+    "baseCrit": 6
+   }
+  },
+  {
+   "id": "storm-call",
+   "category": "skill",
+   "name": "Storm Call",
+   "base": "Skill Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "spell",
+    "lightning",
+    "aoe",
+    "duration"
+   ],
+   "stats": {
+    "baseDamage": 75,
+    "baseSpeed": 1,
+    "baseCrit": 6
+   }
+  },
+  {
+   "id": "glacial-cascade",
+   "category": "skill",
+   "name": "Glacial Cascade",
+   "base": "Skill Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "spell",
+    "cold",
+    "physical",
+    "aoe"
+   ],
+   "stats": {
+    "baseDamage": 70,
+    "baseSpeed": 1.1,
+    "baseCrit": 6
+   }
+  },
+  {
+   "id": "incinerate",
+   "category": "skill",
+   "name": "Incinerate",
+   "base": "Skill Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "spell",
+    "fire",
+    "channelling",
+    "aoe"
+   ],
+   "stats": {
+    "baseDamage": 55,
+    "baseSpeed": 1.6,
+    "baseCrit": 0
+   }
+  },
+  {
+   "id": "summon-skeletons",
+   "category": "skill",
+   "name": "Summon Skeletons",
+   "base": "Skill Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "minion",
+    "spell"
+   ],
+   "stats": {
+    "baseDamage": 60,
+    "baseSpeed": 1.1,
+    "baseCrit": 0
+   }
+  },
+  {
+   "id": "holy-flame-totem",
+   "category": "skill",
+   "name": "Holy Flame Totem",
+   "base": "Skill Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "totem",
+    "spell",
+    "fire",
+    "channelling"
+   ],
+   "stats": {
+    "baseDamage": 55,
+    "baseSpeed": 1.4,
+    "baseCrit": 5
+   }
+  },
+  {
+   "id": "rain-of-arrows",
+   "category": "skill",
+   "name": "Rain of Arrows",
+   "base": "Skill Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "attack",
+    "bow",
+    "physical",
+    "aoe"
+   ],
+   "stats": {
+    "baseDamage": 65,
+    "baseSpeed": 1.15,
+    "baseCrit": 5
+   }
+  },
+  {
+   "id": "bane",
+   "category": "skill",
+   "name": "Bane",
+   "base": "Skill Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "spell",
+    "chaos",
+    "dot",
+    "curse",
+    "aoe"
+   ],
+   "stats": {
+    "baseDamage": 55,
+    "baseSpeed": 1.2,
+    "baseCrit": 0
+   }
+  },
+  {
+   "id": "cyclone",
+   "category": "skill",
+   "name": "Cyclone",
+   "base": "Skill Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "attack",
+    "physical",
+    "melee",
+    "aoe",
+    "channelling"
+   ],
+   "stats": {
+    "baseDamage": 65,
+    "baseSpeed": 1.8,
+    "baseCrit": 5
+   },
+   "flavor": "Spin to win. It never gets old."
+  },
+  {
+   "id": "righteous-fire",
+   "category": "skill",
+   "name": "Righteous Fire",
+   "base": "Skill Gem",
+   "tier": 3,
+   "cost": 6,
+   "tags": [
+    "spell",
+    "fire",
+    "dot",
+    "aoe"
+   ],
+   "stats": {
+    "baseDamage": 95,
+    "baseSpeed": 1,
+    "baseCrit": 0
+   },
+   "flavor": "Burn brightly. Burn everything."
+  },
+  {
+   "id": "toxic-rain",
+   "category": "skill",
+   "name": "Toxic Rain",
+   "base": "Skill Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "attack",
+    "bow",
+    "chaos",
+    "dot",
+    "aoe"
+   ],
+   "stats": {
+    "baseDamage": 80,
+    "baseSpeed": 1.15,
+    "baseCrit": 0
+   },
+   "flavor": "The forest strikes back."
+  },
+  {
+   "id": "essence-drain",
+   "category": "skill",
+   "name": "Essence Drain",
+   "base": "Skill Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "spell",
+    "chaos",
+    "dot",
+    "projectile"
+   ],
+   "stats": {
+    "baseDamage": 85,
+    "baseSpeed": 1.1,
+    "baseCrit": 0
+   }
+  },
+  {
+   "id": "blade-vortex",
+   "category": "skill",
+   "name": "Blade Vortex",
+   "base": "Skill Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "spell",
+    "physical",
+    "aoe",
+    "duration"
+   ],
+   "stats": {
+    "baseDamage": 75,
+    "baseSpeed": 1.5,
+    "baseCrit": 6
+   },
+   "flavor": "A blender of your very own."
+  },
+  {
+   "id": "bladefall",
+   "category": "skill",
+   "name": "Bladefall",
+   "base": "Skill Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "spell",
+    "physical",
+    "aoe"
+   ],
+   "stats": {
+    "baseDamage": 85,
+    "baseSpeed": 1,
+    "baseCrit": 6
+   }
+  },
+  {
+   "id": "tornado-shot",
+   "category": "skill",
+   "name": "Tornado Shot",
+   "base": "Skill Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "attack",
+    "bow",
+    "physical",
+    "projectile"
+   ],
+   "stats": {
+    "baseDamage": 75,
+    "baseSpeed": 1.3,
+    "baseCrit": 6
+   },
+   "flavor": "The endgame classic."
+  },
+  {
+   "id": "boneshatter",
+   "category": "skill",
+   "name": "Boneshatter",
+   "base": "Skill Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "attack",
+    "physical",
+    "melee",
+    "aoe"
+   ],
+   "stats": {
+    "baseDamage": 90,
+    "baseSpeed": 1.2,
+    "baseCrit": 5
+   },
+   "flavor": "Hit yourself harder than they hit you."
+  },
+  {
+   "id": "earthquake",
+   "category": "skill",
+   "name": "Earthquake",
+   "base": "Skill Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "attack",
+    "physical",
+    "melee",
+    "aoe",
+    "duration"
+   ],
+   "stats": {
+    "baseDamage": 90,
+    "baseSpeed": 0.95,
+    "baseCrit": 5
+   }
+  },
+  {
+   "id": "lacerate",
+   "category": "skill",
+   "name": "Lacerate",
+   "base": "Skill Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "attack",
+    "physical",
+    "melee",
+    "aoe",
+    "dot"
+   ],
+   "stats": {
+    "baseDamage": 75,
+    "baseSpeed": 1.15,
+    "baseCrit": 5
+   }
+  },
+  {
+   "id": "flicker-strike",
+   "category": "skill",
+   "name": "Flicker Strike",
+   "base": "Skill Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "attack",
+    "melee",
+    "speed"
+   ],
+   "stats": {
+    "baseDamage": 65,
+    "baseSpeed": 1.9,
+    "baseCrit": 6
+   },
+   "flavor": "Where did you go? Everywhere."
+  },
+  {
+   "id": "wave-of-conviction",
+   "category": "skill",
+   "name": "Wave of Conviction",
+   "base": "Skill Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "spell",
+    "fire",
+    "lightning",
+    "aoe"
+   ],
+   "stats": {
+    "baseDamage": 85,
+    "baseSpeed": 1,
+    "baseCrit": 5
+   }
+  },
+  {
+   "id": "armageddon-brand",
+   "category": "skill",
+   "name": "Armageddon Brand",
+   "base": "Skill Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "spell",
+    "fire",
+    "brand",
+    "aoe"
+   ],
+   "stats": {
+    "baseDamage": 75,
+    "baseSpeed": 1.2,
+    "baseCrit": 6
+   }
+  },
+  {
+   "id": "storm-brand",
+   "category": "skill",
+   "name": "Storm Brand",
+   "base": "Skill Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "spell",
+    "lightning",
+    "brand",
+    "chain"
+   ],
+   "stats": {
+    "baseDamage": 70,
+    "baseSpeed": 1.3,
+    "baseCrit": 6
+   }
+  },
+  {
+   "id": "vortex",
+   "category": "skill",
+   "name": "Vortex",
+   "base": "Skill Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "spell",
+    "cold",
+    "dot",
+    "aoe"
+   ],
+   "stats": {
+    "baseDamage": 80,
+    "baseSpeed": 1.2,
+    "baseCrit": 0
+   }
+  },
+  {
+   "id": "cold-snap",
+   "category": "skill",
+   "name": "Cold Snap",
+   "base": "Skill Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "spell",
+    "cold",
+    "dot",
+    "aoe"
+   ],
+   "stats": {
+    "baseDamage": 75,
+    "baseSpeed": 1.1,
+    "baseCrit": 6
+   }
+  },
+  {
+   "id": "scorching-ray",
+   "category": "skill",
+   "name": "Scorching Ray",
+   "base": "Skill Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "spell",
+    "fire",
+    "dot",
+    "channelling"
+   ],
+   "stats": {
+    "baseDamage": 85,
+    "baseSpeed": 1.2,
+    "baseCrit": 0
+   }
+  },
+  {
+   "id": "detonate-dead",
+   "category": "skill",
+   "name": "Detonate Dead",
+   "base": "Skill Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "spell",
+    "fire",
+    "aoe"
+   ],
+   "stats": {
+    "baseDamage": 90,
+    "baseSpeed": 1,
+    "baseCrit": 5
+   },
+   "flavor": "Waste not, want not."
+  },
+  {
+   "id": "raise-spectre",
+   "category": "skill",
+   "name": "Raise Spectre",
+   "base": "Skill Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "minion",
+    "spell"
+   ],
+   "stats": {
+    "baseDamage": 85,
+    "baseSpeed": 1,
+    "baseCrit": 0
+   },
+   "flavor": "Someone else's power, on demand."
+  },
+  {
+   "id": "summon-stone-golem",
+   "category": "skill",
+   "name": "Summon Stone Golem",
+   "base": "Skill Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "minion",
+    "golem",
+    "spell"
+   ],
+   "stats": {
+    "baseDamage": 70,
+    "baseSpeed": 1,
+    "baseCrit": 0
+   }
+  },
+  {
+   "id": "ancestral-warchief",
+   "category": "skill",
+   "name": "Ancestral Warchief",
+   "base": "Skill Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "totem",
+    "attack",
+    "physical",
+    "melee"
+   ],
+   "stats": {
+    "baseDamage": 80,
+    "baseSpeed": 1.1,
+    "baseCrit": 5
+   }
+  },
+  {
+   "id": "lightning-trap",
+   "category": "skill",
+   "name": "Lightning Trap",
+   "base": "Skill Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "trap",
+    "spell",
+    "lightning",
+    "projectile"
+   ],
+   "stats": {
+    "baseDamage": 80,
+    "baseSpeed": 1.1,
+    "baseCrit": 6
+   }
+  },
+  {
+   "id": "exsanguinate",
+   "category": "skill",
+   "name": "Exsanguinate",
+   "base": "Skill Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "spell",
+    "physical",
+    "dot",
+    "chain"
+   ],
+   "stats": {
+    "baseDamage": 80,
+    "baseSpeed": 1.15,
+    "baseCrit": 5
+   }
+  },
+  {
+   "id": "poisonous-concoction",
+   "category": "skill",
+   "name": "Poisonous Concoction",
+   "base": "Skill Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "attack",
+    "chaos",
+    "projectile",
+    "aoe",
+    "flask"
+   ],
+   "stats": {
+    "baseDamage": 70,
+    "baseSpeed": 1.3,
+    "baseCrit": 5
+   }
+  },
+  {
+   "id": "venom-gyre",
+   "category": "skill",
+   "name": "Venom Gyre",
+   "base": "Skill Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "attack",
+    "chaos",
+    "projectile"
+   ],
+   "stats": {
+    "baseDamage": 65,
+    "baseSpeed": 1.5,
+    "baseCrit": 6
+   }
+  },
+  {
+   "id": "kinetic-blast",
+   "category": "skill",
+   "name": "Kinetic Blast",
+   "base": "Skill Gem",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "attack",
+    "projectile",
+    "aoe"
+   ],
+   "stats": {
+    "baseDamage": 85,
+    "baseSpeed": 1.4,
+    "baseCrit": 6
+   },
+   "flavor": "Pop the pack. Then the screen."
+  },
+  {
+   "id": "winter-orb",
+   "category": "skill",
+   "name": "Winter Orb",
+   "base": "Skill Gem",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "spell",
+    "cold",
+    "projectile",
+    "channelling"
+   ],
+   "stats": {
+    "baseDamage": 85,
+    "baseSpeed": 1.5,
+    "baseCrit": 6
+   }
+  },
+  {
+   "id": "divine-ire",
+   "category": "skill",
+   "name": "Divine Ire",
+   "base": "Skill Gem",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "spell",
+    "lightning",
+    "physical",
+    "channelling",
+    "aoe"
+   ],
+   "stats": {
+    "baseDamage": 110,
+    "baseSpeed": 0.9,
+    "baseCrit": 6
+   }
+  },
+  {
+   "id": "flameblast",
+   "category": "skill",
+   "name": "Flameblast",
+   "base": "Skill Gem",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "spell",
+    "fire",
+    "aoe",
+    "channelling"
+   ],
+   "stats": {
+    "baseDamage": 130,
+    "baseSpeed": 0.7,
+    "baseCrit": 6
+   },
+   "flavor": "Ten stacks or nothing."
+  },
+  {
+   "id": "discharge",
+   "category": "skill",
+   "name": "Discharge",
+   "base": "Skill Gem",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "spell",
+    "fire",
+    "cold",
+    "lightning",
+    "aoe"
+   ],
+   "stats": {
+    "baseDamage": 140,
+    "baseSpeed": 0.8,
+    "baseCrit": 6
+   },
+   "flavor": "All the power, all at once."
+  },
+  {
+   "id": "volatile-dead",
+   "category": "skill",
+   "name": "Volatile Dead",
+   "base": "Skill Gem",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "spell",
+    "fire",
+    "aoe"
+   ],
+   "stats": {
+    "baseDamage": 95,
+    "baseSpeed": 1.2,
+    "baseCrit": 6
+   }
+  },
+  {
+   "id": "dark-pact",
+   "category": "skill",
+   "name": "Dark Pact",
+   "base": "Skill Gem",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "spell",
+    "chaos",
+    "aoe",
+    "minion"
+   ],
+   "stats": {
+    "baseDamage": 90,
+    "baseSpeed": 1.3,
+    "baseCrit": 6
+   },
+   "flavor": "Blood is the oldest currency."
+  },
+  {
+   "id": "soulrend",
+   "category": "skill",
+   "name": "Soulrend",
+   "base": "Skill Gem",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "spell",
+    "chaos",
+    "dot",
+    "projectile"
+   ],
+   "stats": {
+    "baseDamage": 95,
+    "baseSpeed": 1.1,
+    "baseCrit": 0
+   }
+  },
+  {
+   "id": "reap",
+   "category": "skill",
+   "name": "Reap",
+   "base": "Skill Gem",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "spell",
+    "physical",
+    "dot",
+    "aoe"
+   ],
+   "stats": {
+    "baseDamage": 100,
+    "baseSpeed": 1.1,
+    "baseCrit": 6
+   }
+  },
+  {
+   "id": "seismic-trap",
+   "category": "skill",
+   "name": "Seismic Trap",
+   "base": "Skill Gem",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "trap",
+    "spell",
+    "physical",
+    "aoe"
+   ],
+   "stats": {
+    "baseDamage": 105,
+    "baseSpeed": 1,
+    "baseCrit": 5
+   }
+  },
+  {
+   "id": "blade-blast",
+   "category": "skill",
+   "name": "Blade Blast",
+   "base": "Skill Gem",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "spell",
+    "physical",
+    "aoe"
+   ],
+   "stats": {
+    "baseDamage": 90,
+    "baseSpeed": 1.25,
+    "baseCrit": 6
+   }
+  },
+  {
+   "id": "eye-of-winter",
+   "category": "skill",
+   "name": "Eye of Winter",
+   "base": "Skill Gem",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "spell",
+    "cold",
+    "projectile"
+   ],
+   "stats": {
+    "baseDamage": 85,
+    "baseSpeed": 1.35,
+    "baseCrit": 6
+   }
+  },
+  {
+   "id": "added-fire-damage",
+   "category": "support",
+   "name": "Added Fire Damage",
+   "base": "Support Gem",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "fire"
+   ],
+   "stats": {
+    "moreDamage": 15,
+    "flatDamage": 8
+   }
+  },
+  {
+   "id": "added-cold-damage",
+   "category": "support",
+   "name": "Added Cold Damage",
+   "base": "Support Gem",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "cold"
+   ],
+   "stats": {
+    "moreDamage": 14,
+    "flatDamage": 8
+   }
+  },
+  {
+   "id": "added-lightning-damage",
+   "category": "support",
+   "name": "Added Lightning Damage",
+   "base": "Support Gem",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "lightning"
+   ],
+   "stats": {
+    "moreDamage": 14,
+    "flatDamage": 8
+   }
+  },
+  {
+   "id": "onslaught",
+   "category": "support",
+   "name": "Onslaught",
+   "base": "Support Gem",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "speed"
+   ],
+   "stats": {
+    "incSpeed": 12
+   }
+  },
+  {
+   "id": "pierce",
+   "category": "support",
+   "name": "Pierce",
+   "base": "Support Gem",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "projectile"
+   ],
+   "stats": {
+    "moreDamage": 12
+   }
+  },
+  {
+   "id": "chance-to-bleed",
+   "category": "support",
+   "name": "Chance to Bleed",
+   "base": "Support Gem",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "attack",
+    "physical",
+    "dot"
+   ],
+   "stats": {
+    "flatDamage": 6,
+    "moreDamage": 8
+   }
+  },
+  {
+   "id": "chance-to-poison",
+   "category": "support",
+   "name": "Chance to Poison",
+   "base": "Support Gem",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "chaos",
+    "dot"
+   ],
+   "stats": {
+    "flatDamage": 6,
+    "moreDamage": 8
+   }
+  },
+  {
+   "id": "momentum",
+   "category": "support",
+   "name": "Momentum",
+   "base": "Support Gem",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "attack",
+    "speed"
+   ],
+   "stats": {
+    "incSpeed": 10,
+    "moreDamage": 5
+   }
+  },
+  {
+   "id": "infernal-legion",
+   "category": "support",
+   "name": "Infernal Legion",
+   "base": "Support Gem",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "minion",
+    "fire",
+    "dot"
+   ],
+   "stats": {
+    "moreDamage": 12
+   }
+  },
+  {
+   "id": "arcane-surge",
+   "category": "support",
+   "name": "Arcane Surge",
+   "base": "Support Gem",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "spell"
+   ],
+   "stats": {
+    "incSpeed": 8,
+    "moreDamage": 10
+   }
+  },
+  {
+   "id": "summon-phantasm",
+   "category": "support",
+   "name": "Summon Phantasm",
+   "base": "Support Gem",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "minion"
+   ],
+   "stats": {
+    "moreDamage": 10,
+    "flatDamage": 5
+   }
+  },
+  {
+   "id": "lesser-multiple-projectiles",
+   "category": "support",
+   "name": "Lesser Multiple Projectiles",
+   "base": "Support Gem",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "projectile"
+   ],
+   "stats": {
+    "moreDamage": -10,
+    "incSpeed": 0,
+    "flatDamage": 14
+   },
+   "flavor": "More arrows, fewer regrets."
+  },
+  {
+   "id": "maim",
+   "category": "support",
+   "name": "Maim",
+   "base": "Support Gem",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "attack",
+    "physical"
+   ],
+   "stats": {
+    "moreDamage": 12
+   }
+  },
+  {
+   "id": "combustion",
+   "category": "support",
+   "name": "Combustion",
+   "base": "Support Gem",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "fire"
+   ],
+   "stats": {
+    "moreDamage": 12,
+    "penetration": 4
+   }
+  },
+  {
+   "id": "bonechill",
+   "category": "support",
+   "name": "Bonechill",
+   "base": "Support Gem",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "cold"
+   ],
+   "stats": {
+    "moreDamage": 12
+   }
+  },
+  {
+   "id": "innervate",
+   "category": "support",
+   "name": "Innervate",
+   "base": "Support Gem",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "lightning"
+   ],
+   "stats": {
+    "moreDamage": 10,
+    "incSpeed": 5
+   }
+  },
+  {
+   "id": "melee-physical-damage",
+   "category": "support",
+   "name": "Melee Physical Damage",
+   "base": "Support Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "melee",
+    "physical"
+   ],
+   "stats": {
+    "moreDamage": 25
+   }
+  },
+  {
+   "id": "faster-attacks",
+   "category": "support",
+   "name": "Faster Attacks",
+   "base": "Support Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "attack",
+    "speed"
+   ],
+   "stats": {
+    "incSpeed": 25
+   }
+  },
+  {
+   "id": "faster-casting",
+   "category": "support",
+   "name": "Faster Casting",
+   "base": "Support Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "spell",
+    "speed"
+   ],
+   "stats": {
+    "incSpeed": 25
+   }
+  },
+  {
+   "id": "increased-critical-strikes",
+   "category": "support",
+   "name": "Increased Critical Strikes",
+   "base": "Support Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "crit"
+   ],
+   "stats": {
+    "critChance": 25
+   }
+  },
+  {
+   "id": "increased-critical-damage",
+   "category": "support",
+   "name": "Increased Critical Damage",
+   "base": "Support Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "crit"
+   ],
+   "stats": {
+    "critMulti": 45
+   }
+  },
+  {
+   "id": "increased-area-of-effect",
+   "category": "support",
+   "name": "Increased Area of Effect",
+   "base": "Support Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "aoe"
+   ],
+   "stats": {
+    "moreDamage": 10
+   }
+  },
+  {
+   "id": "concentrated-effect",
+   "category": "support",
+   "name": "Concentrated Effect",
+   "base": "Support Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "aoe"
+   ],
+   "stats": {
+    "moreDamage": 25
+   },
+   "flavor": "Smaller circle, bigger numbers."
+  },
+  {
+   "id": "greater-multiple-projectiles",
+   "category": "support",
+   "name": "Greater Multiple Projectiles",
+   "base": "Support Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "projectile"
+   ],
+   "stats": {
+    "moreDamage": -15,
+    "flatDamage": 25
+   },
+   "flavor": "The whole screen is the target."
+  },
+  {
+   "id": "elemental-damage-with-attacks",
+   "category": "support",
+   "name": "Elemental Damage with Attacks",
+   "base": "Support Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "attack",
+    "elemental"
+   ],
+   "stats": {
+    "moreDamage": 22
+   }
+  },
+  {
+   "id": "minion-damage",
+   "category": "support",
+   "name": "Minion Damage",
+   "base": "Support Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "minion"
+   ],
+   "stats": {
+    "moreDamage": 25
+   }
+  },
+  {
+   "id": "minion-speed",
+   "category": "support",
+   "name": "Minion Speed",
+   "base": "Support Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "minion",
+    "speed"
+   ],
+   "stats": {
+    "incSpeed": 20
+   }
+  },
+  {
+   "id": "feeding-frenzy",
+   "category": "support",
+   "name": "Feeding Frenzy",
+   "base": "Support Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "minion"
+   ],
+   "stats": {
+    "moreDamage": 15,
+    "incSpeed": 10
+   }
+  },
+  {
+   "id": "vicious-projectiles",
+   "category": "support",
+   "name": "Vicious Projectiles",
+   "base": "Support Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "projectile",
+    "physical",
+    "dot"
+   ],
+   "stats": {
+    "moreDamage": 22
+   }
+  },
+  {
+   "id": "swift-affliction",
+   "category": "support",
+   "name": "Swift Affliction",
+   "base": "Support Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "dot",
+    "duration"
+   ],
+   "stats": {
+    "moreDamage": 22
+   }
+  },
+  {
+   "id": "void-manipulation",
+   "category": "support",
+   "name": "Void Manipulation",
+   "base": "Support Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "chaos",
+    "dot"
+   ],
+   "stats": {
+    "moreDamage": 22
+   }
+  },
+  {
+   "id": "burning-damage",
+   "category": "support",
+   "name": "Burning Damage",
+   "base": "Support Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "fire",
+    "dot"
+   ],
+   "stats": {
+    "dotMulti": 22
+   }
+  },
+  {
+   "id": "trap-and-mine-damage",
+   "category": "support",
+   "name": "Trap and Mine Damage",
+   "base": "Support Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "trap",
+    "mine"
+   ],
+   "stats": {
+    "moreDamage": 25
+   }
+  },
+  {
+   "id": "ballista-totem",
+   "category": "support",
+   "name": "Ballista Totem",
+   "base": "Support Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "totem",
+    "bow",
+    "attack"
+   ],
+   "stats": {
+    "moreDamage": 18
+   }
+  },
+  {
+   "id": "spell-totem",
+   "category": "support",
+   "name": "Spell Totem",
+   "base": "Support Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "totem",
+    "spell"
+   ],
+   "stats": {
+    "moreDamage": 15
+   }
+  },
+  {
+   "id": "physical-to-lightning",
+   "category": "support",
+   "name": "Physical to Lightning",
+   "base": "Support Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "physical",
+    "lightning"
+   ],
+   "stats": {
+    "moreDamage": 15,
+    "penetration": 3
+   }
+  },
+  {
+   "id": "ignite-proliferation",
+   "category": "support",
+   "name": "Ignite Proliferation",
+   "base": "Support Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "fire",
+    "dot",
+    "aoe"
+   ],
+   "stats": {
+    "moreDamage": 18
+   }
+  },
+  {
+   "id": "deadly-ailments",
+   "category": "support",
+   "name": "Deadly Ailments",
+   "base": "Support Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "dot",
+    "ailment"
+   ],
+   "stats": {
+    "moreDamage": 28
+   }
+  },
+  {
+   "id": "unbound-ailments",
+   "category": "support",
+   "name": "Unbound Ailments",
+   "base": "Support Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "ailment",
+    "dot"
+   ],
+   "stats": {
+    "moreDamage": 20
+   }
+  },
+  {
+   "id": "withering-touch",
+   "category": "support",
+   "name": "Withering Touch",
+   "base": "Support Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "chaos",
+    "attack",
+    "dot"
+   ],
+   "stats": {
+    "moreDamage": 18
+   }
+  },
+  {
+   "id": "iron-will",
+   "category": "support",
+   "name": "Iron Will",
+   "base": "Support Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "spell"
+   ],
+   "stats": {
+    "incDamage": 35
+   }
+  },
+  {
+   "id": "ruthless",
+   "category": "support",
+   "name": "Ruthless",
+   "base": "Support Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "melee",
+    "attack"
+   ],
+   "stats": {
+    "moreDamage": 20
+   }
+  },
+  {
+   "id": "bloodlust",
+   "category": "support",
+   "name": "Bloodlust",
+   "base": "Support Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "melee",
+    "physical",
+    "attack"
+   ],
+   "stats": {
+    "moreDamage": 25
+   }
+  },
+  {
+   "id": "cold-to-fire",
+   "category": "support",
+   "name": "Cold to Fire",
+   "base": "Support Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "cold",
+    "fire"
+   ],
+   "stats": {
+    "moreDamage": 15
+   }
+  },
+  {
+   "id": "increased-duration",
+   "category": "support",
+   "name": "Increased Duration",
+   "base": "Support Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "duration"
+   ],
+   "stats": {
+    "moreDamage": 15
+   }
+  },
+  {
+   "id": "faster-projectiles",
+   "category": "support",
+   "name": "Faster Projectiles",
+   "base": "Support Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "projectile",
+    "speed"
+   ],
+   "stats": {
+    "moreDamage": 12,
+    "incSpeed": 8
+   }
+  },
+  {
+   "id": "chain",
+   "category": "support",
+   "name": "Chain",
+   "base": "Support Gem",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "projectile",
+    "chain"
+   ],
+   "stats": {
+    "moreDamage": -10,
+    "flatDamage": 30
+   }
+  },
+  {
+   "id": "multistrike",
+   "category": "support",
+   "name": "Multistrike",
+   "base": "Support Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "melee",
+    "attack",
+    "speed"
+   ],
+   "stats": {
+    "incSpeed": 45,
+    "moreDamage": -10
+   },
+   "flavor": "One click, three hits."
+  },
+  {
+   "id": "spell-echo",
+   "category": "support",
+   "name": "Spell Echo",
+   "base": "Support Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "spell",
+    "speed"
+   ],
+   "stats": {
+    "incSpeed": 45,
+    "moreDamage": -10
+   },
+   "flavor": "Say it again, louder."
+  },
+  {
+   "id": "controlled-destruction",
+   "category": "support",
+   "name": "Controlled Destruction",
+   "base": "Support Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "spell"
+   ],
+   "stats": {
+    "moreDamage": 30,
+    "critChance": -50
+   }
+  },
+  {
+   "id": "elemental-focus",
+   "category": "support",
+   "name": "Elemental Focus",
+   "base": "Support Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "elemental"
+   ],
+   "stats": {
+    "moreDamage": 30
+   },
+   "flavor": "No ailments. No mercy."
+  },
+  {
+   "id": "brutality",
+   "category": "support",
+   "name": "Brutality",
+   "base": "Support Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "physical"
+   ],
+   "stats": {
+    "moreDamage": 35
+   },
+   "flavor": "Pure. Physical. Violence."
+  },
+  {
+   "id": "hypothermia",
+   "category": "support",
+   "name": "Hypothermia",
+   "base": "Support Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "cold"
+   ],
+   "stats": {
+    "moreDamage": 28
+   }
+  },
+  {
+   "id": "fire-penetration",
+   "category": "support",
+   "name": "Fire Penetration",
+   "base": "Support Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "fire"
+   ],
+   "stats": {
+    "penetration": 18
+   }
+  },
+  {
+   "id": "cold-penetration",
+   "category": "support",
+   "name": "Cold Penetration",
+   "base": "Support Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "cold"
+   ],
+   "stats": {
+    "penetration": 18
+   }
+  },
+  {
+   "id": "lightning-penetration",
+   "category": "support",
+   "name": "Lightning Penetration",
+   "base": "Support Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "lightning"
+   ],
+   "stats": {
+    "penetration": 18
+   }
+  },
+  {
+   "id": "fortify",
+   "category": "support",
+   "name": "Fortify",
+   "base": "Support Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "melee",
+    "attack"
+   ],
+   "stats": {
+    "moreDamage": 15,
+    "armour": 300
+   }
+  },
+  {
+   "id": "close-combat",
+   "category": "support",
+   "name": "Close Combat",
+   "base": "Support Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "melee",
+    "attack"
+   ],
+   "stats": {
+    "moreDamage": 28
+   }
+  },
+  {
+   "id": "pulverise",
+   "category": "support",
+   "name": "Pulverise",
+   "base": "Support Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "melee",
+    "aoe"
+   ],
+   "stats": {
+    "moreDamage": 30,
+    "incSpeed": -10
+   }
+  },
+  {
+   "id": "rage",
+   "category": "support",
+   "name": "Rage",
+   "base": "Support Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "attack"
+   ],
+   "stats": {
+    "moreDamage": 25,
+    "incSpeed": 5
+   }
+  },
+  {
+   "id": "cruelty",
+   "category": "support",
+   "name": "Cruelty",
+   "base": "Support Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "dot"
+   ],
+   "stats": {
+    "moreDamage": 28
+   }
+  },
+  {
+   "id": "trinity",
+   "category": "support",
+   "name": "Trinity",
+   "base": "Support Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "elemental",
+    "fire",
+    "cold",
+    "lightning"
+   ],
+   "stats": {
+    "moreDamage": 30,
+    "penetration": 8
+   },
+   "flavor": "Three as one."
+  },
+  {
+   "id": "energy-leech",
+   "category": "support",
+   "name": "Energy Leech",
+   "base": "Support Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "es",
+    "leech"
+   ],
+   "stats": {
+    "moreDamage": 20,
+    "leech": 0.5
+   }
+  },
+  {
+   "id": "infused-channelling",
+   "category": "support",
+   "name": "Infused Channelling",
+   "base": "Support Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "channelling"
+   ],
+   "stats": {
+    "moreDamage": 25,
+    "armour": 200
+   }
+  },
+  {
+   "id": "cast-on-critical-strike",
+   "category": "support",
+   "name": "Cast On Critical Strike",
+   "base": "Support Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "spell",
+    "crit",
+    "trigger"
+   ],
+   "stats": {
+    "moreDamage": 20,
+    "incSpeed": 15
+   },
+   "flavor": "Why cast when the blade can do it for you?"
+  },
+  {
+   "id": "impale",
+   "category": "support",
+   "name": "Impale",
+   "base": "Support Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "attack",
+    "physical"
+   ],
+   "stats": {
+    "moreDamage": 30
+   }
+  },
+  {
+   "id": "charged-traps",
+   "category": "support",
+   "name": "Charged Traps",
+   "base": "Support Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "trap",
+    "crit"
+   ],
+   "stats": {
+    "moreDamage": 22,
+    "critMulti": 30
+   }
+  },
+  {
+   "id": "archmage",
+   "category": "support",
+   "name": "Archmage",
+   "base": "Support Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "spell",
+    "lightning",
+    "mana"
+   ],
+   "stats": {
+    "moreDamage": 35
+   },
+   "flavor": "Mana is just spicy damage."
+  },
+  {
+   "id": "predator",
+   "category": "support",
+   "name": "Predator",
+   "base": "Support Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "minion"
+   ],
+   "stats": {
+    "moreDamage": 25
+   }
+  },
+  {
+   "id": "fist-of-war",
+   "category": "support",
+   "name": "Fist of War",
+   "base": "Support Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "melee",
+    "attack",
+    "aoe"
+   ],
+   "stats": {
+    "moreDamage": 30,
+    "incSpeed": -8
+   }
+  },
+  {
+   "id": "rupture",
+   "category": "support",
+   "name": "Rupture",
+   "base": "Support Gem",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "physical",
+    "dot",
+    "crit"
+   ],
+   "stats": {
+    "moreDamage": 20,
+    "critChance": 10
+   }
+  },
+  {
+   "id": "empower",
+   "category": "support",
+   "name": "Empower",
+   "base": "Support Gem",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "gem"
+   ],
+   "stats": {
+    "moreDamage": 25,
+    "flatDamage": 15
+   },
+   "flavor": "Power begets power."
+  },
+  {
+   "id": "awakened-added-fire-damage",
+   "category": "support",
+   "name": "Awakened Added Fire Damage",
+   "base": "Support Gem",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "fire"
+   ],
+   "stats": {
+    "moreDamage": 28,
+    "flatDamage": 15
+   }
+  },
+  {
+   "id": "awakened-elemental-damage-with-attacks",
+   "category": "support",
+   "name": "Awakened Elemental Damage with Attacks",
+   "base": "Support Gem",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "attack",
+    "elemental"
+   ],
+   "stats": {
+    "moreDamage": 32
+   }
+  },
+  {
+   "id": "awakened-melee-physical-damage",
+   "category": "support",
+   "name": "Awakened Melee Physical Damage",
+   "base": "Support Gem",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "melee",
+    "physical"
+   ],
+   "stats": {
+    "moreDamage": 35
+   }
+  },
+  {
+   "id": "awakened-minion-damage",
+   "category": "support",
+   "name": "Awakened Minion Damage",
+   "base": "Support Gem",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "minion"
+   ],
+   "stats": {
+    "moreDamage": 35
+   }
+  },
+  {
+   "id": "awakened-void-manipulation",
+   "category": "support",
+   "name": "Awakened Void Manipulation",
+   "base": "Support Gem",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "chaos",
+    "dot"
+   ],
+   "stats": {
+    "moreDamage": 32
+   }
+  },
+  {
+   "id": "awakened-burning-damage",
+   "category": "support",
+   "name": "Awakened Burning Damage",
+   "base": "Support Gem",
+   "tier": 4,
+   "cost": 8,
+   "tags": [
+    "fire",
+    "dot"
+   ],
+   "stats": {
+    "dotMulti": 35
+   }
+  },
+  {
+   "id": "awakened-spell-echo",
+   "category": "support",
+   "name": "Awakened Spell Echo",
+   "base": "Support Gem",
+   "tier": 5,
+   "cost": 12,
+   "tags": [
+    "spell",
+    "speed"
+   ],
+   "stats": {
+    "incSpeed": 55,
+    "moreDamage": -5
+   },
+   "flavor": "The echo answers before you speak."
+  },
+  {
+   "id": "awakened-multistrike",
+   "category": "support",
+   "name": "Awakened Multistrike",
+   "base": "Support Gem",
+   "tier": 5,
+   "cost": 12,
+   "tags": [
+    "melee",
+    "attack",
+    "speed"
+   ],
+   "stats": {
+    "incSpeed": 55,
+    "moreDamage": -5
+   }
+  },
+  {
+   "id": "awakened-elemental-focus",
+   "category": "support",
+   "name": "Awakened Elemental Focus",
+   "base": "Support Gem",
+   "tier": 5,
+   "cost": 12,
+   "tags": [
+    "elemental"
+   ],
+   "stats": {
+    "moreDamage": 40
+   }
+  },
+  {
+   "id": "awakened-greater-multiple-projectiles",
+   "category": "support",
+   "name": "Awakened Greater Multiple Projectiles",
+   "base": "Support Gem",
+   "tier": 5,
+   "cost": 12,
+   "tags": [
+    "projectile"
+   ],
+   "stats": {
+    "flatDamage": 40,
+    "moreDamage": -8
+   }
+  },
+  {
+   "id": "awakened-cast-on-critical-strike",
+   "category": "support",
+   "name": "Awakened Cast On Critical Strike",
+   "base": "Support Gem",
+   "tier": 5,
+   "cost": 12,
+   "tags": [
+    "spell",
+    "crit",
+    "trigger"
+   ],
+   "stats": {
+    "moreDamage": 30,
+    "incSpeed": 20
+   }
+  },
+  {
+   "id": "slayer",
+   "category": "ascendancy",
+   "name": "Slayer",
+   "base": "Duelist",
+   "tier": 3,
+   "cost": 0,
+   "tags": [
+    "attack",
+    "physical",
+    "leech"
+   ],
+   "stats": {
+    "moreDamage": 20,
+    "leech": 2,
+    "life": 100
+   },
+   "flavor": "Kill. Overkill. Repeat."
+  },
+  {
+   "id": "gladiator",
+   "category": "ascendancy",
+   "name": "Gladiator",
+   "base": "Duelist",
+   "tier": 3,
+   "cost": 0,
+   "tags": [
+    "attack",
+    "physical",
+    "block",
+    "dot"
+   ],
+   "stats": {
+    "block": 25,
+    "moreDamage": 12,
+    "life": 100
+   },
+   "flavor": "The crowd demands blood. Provide."
+  },
+  {
+   "id": "champion",
+   "category": "ascendancy",
+   "name": "Champion",
+   "base": "Duelist",
+   "tier": 3,
+   "cost": 0,
+   "tags": [
+    "attack",
+    "armour"
+   ],
+   "stats": {
+    "moreDamage": 15,
+    "armour": 500,
+    "life": 150
+   },
+   "flavor": "Stand tall. Never yield."
+  },
+  {
+   "id": "juggernaut",
+   "category": "ascendancy",
+   "name": "Juggernaut",
+   "base": "Marauder",
+   "tier": 3,
+   "cost": 0,
+   "tags": [
+    "armour",
+    "physical",
+    "life"
+   ],
+   "stats": {
+    "armour": 1500,
+    "life": 250,
+    "regen": 1.5
+   },
+   "flavor": "Unstoppable is not a metaphor."
+  },
+  {
+   "id": "berserker",
+   "category": "ascendancy",
+   "name": "Berserker",
+   "base": "Marauder",
+   "tier": 3,
+   "cost": 0,
+   "tags": [
+    "attack",
+    "physical",
+    "speed"
+   ],
+   "stats": {
+    "moreDamage": 40,
+    "incSpeed": 12,
+    "life": -100
+   },
+   "flavor": "Rage is a resource. Spend it all."
+  },
+  {
+   "id": "chieftain",
+   "category": "ascendancy",
+   "name": "Chieftain",
+   "base": "Marauder",
+   "tier": 3,
+   "cost": 0,
+   "tags": [
+    "fire",
+    "totem",
+    "life"
+   ],
+   "stats": {
+    "moreDamage": 22,
+    "resFire": 30,
+    "regen": 2,
+    "life": 100
+   },
+   "flavor": "Ngamahu's flame burns in your chest."
+  },
+  {
+   "id": "deadeye",
+   "category": "ascendancy",
+   "name": "Deadeye",
+   "base": "Ranger",
+   "tier": 3,
+   "cost": 0,
+   "tags": [
+    "bow",
+    "projectile",
+    "speed"
+   ],
+   "stats": {
+    "moreDamage": 25,
+    "incSpeed": 10,
+    "evasion": 300
+   },
+   "flavor": "One shot, one screen."
+  },
+  {
+   "id": "raider",
+   "category": "ascendancy",
+   "name": "Raider",
+   "base": "Ranger",
+   "tier": 3,
+   "cost": 0,
+   "tags": [
+    "attack",
+    "speed",
+    "evasion"
+   ],
+   "stats": {
+    "incSpeed": 25,
+    "evasion": 1000,
+    "suppress": 25
+   },
+   "flavor": "Never stop moving."
+  },
+  {
+   "id": "pathfinder",
+   "category": "ascendancy",
+   "name": "Pathfinder",
+   "base": "Ranger",
+   "tier": 3,
+   "cost": 0,
+   "tags": [
+    "flask",
+    "chaos",
+    "elemental"
+   ],
+   "stats": {
+    "moreDamage": 20,
+    "regen": 1.5,
+    "resAll": 8
+   },
+   "flavor": "The flask is always half full."
+  },
+  {
+   "id": "assassin",
+   "category": "ascendancy",
+   "name": "Assassin",
+   "base": "Shadow",
+   "tier": 3,
+   "cost": 0,
+   "tags": [
+    "crit",
+    "chaos",
+    "speed"
+   ],
+   "stats": {
+    "critChance": 25,
+    "critMulti": 45,
+    "evasion": 200
+   },
+   "flavor": "The perfect kill needs no witness."
+  },
+  {
+   "id": "saboteur",
+   "category": "ascendancy",
+   "name": "Saboteur",
+   "base": "Shadow",
+   "tier": 3,
+   "cost": 0,
+   "tags": [
+    "trap",
+    "mine",
+    "elemental"
+   ],
+   "stats": {
+    "moreDamage": 25,
+    "penetration": 10,
+    "life": 80
+   },
+   "flavor": "Light the fuse. Walk away."
+  },
+  {
+   "id": "trickster",
+   "category": "ascendancy",
+   "name": "Trickster",
+   "base": "Shadow",
+   "tier": 3,
+   "cost": 0,
+   "tags": [
+    "es",
+    "dot",
+    "chaos",
+    "evasion"
+   ],
+   "stats": {
+    "es": 300,
+    "evasion": 500,
+    "suppress": 20,
+    "moreDamage": 10
+   },
+   "flavor": "Heads I win, tails you lose."
+  },
+  {
+   "id": "inquisitor",
+   "category": "ascendancy",
+   "name": "Inquisitor",
+   "base": "Templar",
+   "tier": 3,
+   "cost": 0,
+   "tags": [
+    "spell",
+    "elemental",
+    "crit"
+   ],
+   "stats": {
+    "penetration": 15,
+    "critChance": 15,
+    "regen": 1.5
+   },
+   "flavor": "Judgement is best delivered personally."
+  },
+  {
+   "id": "hierophant",
+   "category": "ascendancy",
+   "name": "Hierophant",
+   "base": "Templar",
+   "tier": 3,
+   "cost": 0,
+   "tags": [
+    "totem",
+    "spell",
+    "mana"
+   ],
+   "stats": {
+    "moreDamage": 20,
+    "es": 200,
+    "flagMoM": 1
+   },
+   "flavor": "Faith, arranged in formation."
+  },
+  {
+   "id": "guardian",
+   "category": "ascendancy",
+   "name": "Guardian",
+   "base": "Templar",
+   "tier": 3,
+   "cost": 0,
+   "tags": [
+    "minion",
+    "aura",
+    "armour"
+   ],
+   "stats": {
+    "armour": 800,
+    "es": 200,
+    "regen": 1.5,
+    "block": 12,
+    "moreDamage": 10
+   },
+   "flavor": "A shield for every believer."
+  },
+  {
+   "id": "necromancer",
+   "category": "ascendancy",
+   "name": "Necromancer",
+   "base": "Witch",
+   "tier": 3,
+   "cost": 0,
+   "tags": [
+    "minion"
+   ],
+   "stats": {
+    "moreDamage": 35,
+    "es": 150,
+    "life": 80
+   },
+   "flavor": "Death is a promotion."
+  },
+  {
+   "id": "occultist",
+   "category": "ascendancy",
+   "name": "Occultist",
+   "base": "Witch",
+   "tier": 3,
+   "cost": 0,
+   "tags": [
+    "chaos",
+    "cold",
+    "curse",
+    "es"
+   ],
+   "stats": {
+    "es": 400,
+    "moreDamage": 20
+   },
+   "flavor": "The void whispers back."
+  },
+  {
+   "id": "elementalist",
+   "category": "ascendancy",
+   "name": "Elementalist",
+   "base": "Witch",
+   "tier": 3,
+   "cost": 0,
+   "tags": [
+    "fire",
+    "cold",
+    "lightning",
+    "golem",
+    "elemental"
+   ],
+   "stats": {
+    "moreDamage": 25,
+    "penetration": 8,
+    "resAll": 8
+   },
+   "flavor": "Why choose an element when you can have them all?"
+  },
+  {
+   "id": "ascendant",
+   "category": "ascendancy",
+   "name": "Ascendant",
+   "base": "Scion",
+   "tier": 3,
+   "cost": 0,
+   "tags": [
+    "attack",
+    "spell"
+   ],
+   "stats": {
+    "incDamage": 30,
+    "life": 150,
+    "resAll": 10
+   },
+   "flavor": "A little of everything. A lot of nothing."
+  },
+  {
+   "id": "chaos-inoculation",
+   "category": "keystone",
+   "name": "Chaos Inoculation",
+   "base": "Keystone Passive",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "es",
+    "chaos"
+   ],
+   "stats": {
+    "flagCI": 1,
+    "es": 200
+   },
+   "flavor": "Life is overrated anyway."
+  },
+  {
+   "id": "mind-over-matter",
+   "category": "keystone",
+   "name": "Mind Over Matter",
+   "base": "Keystone Passive",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "mana"
+   ],
+   "stats": {
+    "flagMoM": 1
+   },
+   "flavor": "The mind bleeds so the body doesn't."
+  },
+  {
+   "id": "eldritch-battery",
+   "category": "keystone",
+   "name": "Eldritch Battery",
+   "base": "Keystone Passive",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "es",
+    "mana",
+    "spell"
+   ],
+   "stats": {
+    "flagEB": 1,
+    "incDamage": 25
+   },
+   "flavor": "Burn the shield to feed the storm."
+  },
+  {
+   "id": "vaal-pact",
+   "category": "keystone",
+   "name": "Vaal Pact",
+   "base": "Keystone Passive",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "leech"
+   ],
+   "stats": {
+    "flagVaalPact": 1
+   },
+   "flavor": "Instant gratification, eternal hunger."
+  },
+  {
+   "id": "elemental-overload",
+   "category": "keystone",
+   "name": "Elemental Overload",
+   "base": "Keystone Passive",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "elemental",
+    "spell",
+    "attack"
+   ],
+   "stats": {
+    "flagEO": 1
+   },
+   "flavor": "Luck, industrialised."
+  },
+  {
+   "id": "resolute-technique",
+   "category": "keystone",
+   "name": "Resolute Technique",
+   "base": "Keystone Passive",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "attack",
+    "melee"
+   ],
+   "stats": {
+    "flagRT": 1
+   },
+   "flavor": "Never miss. Never crit. Never worry."
+  },
+  {
+   "id": "pain-attunement",
+   "category": "keystone",
+   "name": "Pain Attunement",
+   "base": "Keystone Passive",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "spell",
+    "lowlife"
+   ],
+   "stats": {
+    "flagLowLife": 1
+   },
+   "flavor": "Suffering sharpens the mind."
+  },
+  {
+   "id": "iron-reflexes",
+   "category": "keystone",
+   "name": "Iron Reflexes",
+   "base": "Keystone Passive",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "armour",
+    "evasion"
+   ],
+   "stats": {
+    "flagIronReflexes": 1
+   },
+   "flavor": "Stand and take it."
+  },
+  {
+   "id": "acrobatics",
+   "category": "keystone",
+   "name": "Acrobatics",
+   "base": "Keystone Passive",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "evasion"
+   ],
+   "stats": {
+    "flagAcro": 1
+   },
+   "flavor": "The best armour is elsewhere-ness."
+  },
+  {
+   "id": "unwavering-stance",
+   "category": "keystone",
+   "name": "Unwavering Stance",
+   "base": "Keystone Passive",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "armour"
+   ],
+   "stats": {
+    "armour": 600
+   },
+   "flavor": "Cannot be moved. Will not be moved."
+  },
+  {
+   "id": "ghost-reaver",
+   "category": "keystone",
+   "name": "Ghost Reaver",
+   "base": "Keystone Passive",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "es",
+    "leech"
+   ],
+   "stats": {
+    "leech": 1.5,
+    "es": 80
+   },
+   "flavor": "Feed the shell, starve the flesh."
+  },
+  {
+   "id": "zealots-oath",
+   "category": "keystone",
+   "name": "Zealot's Oath",
+   "base": "Keystone Passive",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "es",
+    "regen"
+   ],
+   "stats": {
+    "regen": 1.5,
+    "es": 60
+   }
+  },
+  {
+   "id": "elemental-equilibrium",
+   "category": "keystone",
+   "name": "Elemental Equilibrium",
+   "base": "Keystone Passive",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "elemental"
+   ],
+   "stats": {
+    "penetration": 12
+   },
+   "flavor": "Balance, violently enforced."
+  },
+  {
+   "id": "avatar-of-fire",
+   "category": "keystone",
+   "name": "Avatar of Fire",
+   "base": "Keystone Passive",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "fire"
+   ],
+   "stats": {
+    "moreDamage": 30
+   },
+   "flavor": "All things end in flame."
+  },
+  {
+   "id": "point-blank",
+   "category": "keystone",
+   "name": "Point Blank",
+   "base": "Keystone Passive",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "projectile",
+    "bow"
+   ],
+   "stats": {
+    "moreDamage": 25
+   },
+   "flavor": "Closer. Closer. There."
+  },
+  {
+   "id": "iron-grip",
+   "category": "keystone",
+   "name": "Iron Grip",
+   "base": "Keystone Passive",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "physical",
+    "projectile"
+   ],
+   "stats": {
+    "incDamage": 30
+   }
+  },
+  {
+   "id": "blood-magic",
+   "category": "keystone",
+   "name": "Blood Magic",
+   "base": "Keystone Passive",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "life"
+   ],
+   "stats": {
+    "life": 250,
+    "flagBloodMagic": 1
+   },
+   "flavor": "Every spell, paid in blood."
+  },
+  {
+   "id": "eternal-youth",
+   "category": "keystone",
+   "name": "Eternal Youth",
+   "base": "Keystone Passive",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "life",
+    "es"
+   ],
+   "stats": {
+    "flagEternalYouth": 1
+   },
+   "flavor": "Forever is a long time to bleed."
+  },
+  {
+   "id": "glancing-blows",
+   "category": "keystone",
+   "name": "Glancing Blows",
+   "base": "Keystone Passive",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "block"
+   ],
+   "stats": {
+    "flagGlancing": 1,
+    "life": -100
+   },
+   "flavor": "Half a wound is still a wound."
+  },
+  {
+   "id": "minion-instability",
+   "category": "keystone",
+   "name": "Minion Instability",
+   "base": "Keystone Passive",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "minion",
+    "fire"
+   ],
+   "stats": {
+    "moreDamage": 25
+   },
+   "flavor": "They explode. It's a feature."
+  },
+  {
+   "id": "wicked-ward",
+   "category": "keystone",
+   "name": "Wicked Ward",
+   "base": "Keystone Passive",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "es"
+   ],
+   "stats": {
+    "es": 150
+   }
+  },
+  {
+   "id": "divine-shield",
+   "category": "keystone",
+   "name": "Divine Shield",
+   "base": "Keystone Passive",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "armour",
+    "es"
+   ],
+   "stats": {
+    "es": 100,
+    "armour": 300
+   }
+  },
+  {
+   "id": "supreme-ego",
+   "category": "keystone",
+   "name": "Supreme Ego",
+   "base": "Keystone Passive",
+   "tier": 3,
+   "cost": 5,
+   "tags": [
+    "aura"
+   ],
+   "stats": {
+    "moreDamage": 20
+   },
+   "flavor": "One is the strongest number."
+  },
+  {
+   "id": "crimson-dance",
+   "category": "keystone",
+   "name": "Crimson Dance",
+   "base": "Keystone Passive",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "physical",
+    "dot"
+   ],
+   "stats": {
+    "dotMulti": 25
+   },
+   "flavor": "Eight wounds, one waltz."
+  },
+  {
+   "id": "arrow-dancing",
+   "category": "keystone",
+   "name": "Arrow Dancing",
+   "base": "Keystone Passive",
+   "tier": 1,
+   "cost": 2,
+   "tags": [
+    "evasion",
+    "bow"
+   ],
+   "stats": {
+    "evasion": 800
+   }
+  },
+  {
+   "id": "the-agnostic",
+   "category": "keystone",
+   "name": "The Agnostic",
+   "base": "Keystone Passive",
+   "tier": 2,
+   "cost": 3,
+   "tags": [
+    "life",
+    "regen"
+   ],
+   "stats": {
+    "regen": 3
+   },
+   "flavor": "Belief is a resource. Doubt is armour."
+  }
+ ],
+ "combos": [
+  {
+   "id": "golemancer-online",
+   "name": "Golemancer Online",
+   "requiresAscendancy": "elementalist",
+   "requiresTag": {
+    "tag": "golem",
+    "count": 2
+   },
+   "multiplier": 1.5,
+   "line": "GOLEMANCER ONLINE. The constructs march."
+  },
+  {
+   "id": "phoenix-flame",
+   "name": "The Phoenix Feeds the Flame",
+   "requiresIds": [
+    "righteous-fire",
+    "rise-of-the-phoenix"
+   ],
+   "multiplier": 1.35,
+   "line": "The Phoenix feeds the flame. The fire will not die."
+  },
+  {
+   "id": "nemesis-thief",
+   "name": "The Nemesis Mods Flow",
+   "requiresIds": [
+    "headhunter"
+   ],
+   "requiresTag": {
+    "tag": "speed",
+    "count": 3
+   },
+   "multiplier": 1.4,
+   "line": "The nemesis mods flow. Someone clip this."
+  },
+  {
+   "id": "cospri-loop",
+   "name": "Cospri Loops",
+   "requiresIds": [
+    "cospris-malice"
+   ],
+   "requiresTag": {
+    "tag": "cold",
+    "count": 3
+   },
+   "multiplier": 1.45,
+   "line": "Cospri loops. The screen is frost and knives."
+  },
+  {
+   "id": "mjolner-storm",
+   "name": "The Hammer Sings",
+   "requiresIds": [
+    "mjolner"
+   ],
+   "requiresTag": {
+    "tag": "lightning",
+    "count": 3
+   },
+   "multiplier": 1.45,
+   "line": "The hammer sings and the sky answers."
+  },
+  {
+   "id": "knuckle-sandwich",
+   "name": "Knuckle Sandwich",
+   "requiresIds": [
+    "facebreaker"
+   ],
+   "requiresTag": {
+    "tag": "physical",
+    "count": 3
+   },
+   "multiplier": 1.4,
+   "line": "No weapon. No problem. Knuckle sandwich, served."
+  },
+  {
+   "id": "voltaxic-siphon",
+   "name": "Eldritch Current",
+   "requiresIds": [
+    "voltaxic-rift"
+   ],
+   "requiresTag": {
+    "tag": "chaos",
+    "count": 2
+   },
+   "multiplier": 1.35,
+   "line": "The eldritch current arcs where resistance means nothing."
+  },
+  {
+   "id": "ghost-in-the-shell",
+   "name": "Ghost in the Shell",
+   "requiresIds": [
+    "chaos-inoculation",
+    "shavronnes-wrappings"
+   ],
+   "multiplier": 1.3,
+   "line": "Flesh abandoned. The shell walks."
+  },
+  {
+   "id": "doryani-favor",
+   "name": "Doryani's Favour",
+   "requiresIds": [
+    "doryanis-catalyst",
+    "doryanis-invitation"
+   ],
+   "multiplier": 1.3,
+   "line": "The Queen's engineer smiles from beyond."
+  },
+  {
+   "id": "original-heresy",
+   "name": "Original Heresy",
+   "requiresIds": [
+    "original-sin"
+   ],
+   "requiresTag": {
+    "tag": "chaos",
+    "count": 3
+   },
+   "multiplier": 1.4,
+   "line": "All damage is chaos. All chaos is yours."
+  }
+ ]
+}

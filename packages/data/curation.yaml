@@ -1,0 +1,85 @@
+# ─────────────────────────────────────────────────────────────────────────
+# EXILE DRAFT — hand-curated overlay.
+# This file is NEVER touched by the ingest script; it is merged LAST and
+# wins every conflict. Use it to exclude entities, re-tier them, re-price
+# them, and define combo flags — without editing the vendored entity data.
+# ─────────────────────────────────────────────────────────────────────────
+
+# Entity ids to drop from the pool entirely.
+excludes: []
+
+# tier overrides: id -> 1..5  (price re-derives from tier unless overridden)
+tierOverrides: {}
+
+# price overrides: id -> chaos cost (applied after tier pricing)
+priceOverrides:
+  headhunter: 14
+  mageblood: 14
+  original-sin: 13
+  ashes-of-the-stars: 12
+  crystallised-omniscience: 12
+  progenesis: 12
+  bottled-faith: 11
+  tabula-rasa: 3          # everyone's first six-link deserves a fair price
+  goldrim: 2
+  righteous-fire: 6
+
+# Hand-tagged combo flags — explicit multipliers announced in the fight log.
+combos:
+  - id: golemancer-online
+    name: Golemancer Online
+    requiresAscendancy: elementalist
+    requiresTag: { tag: golem, count: 2 }
+    multiplier: 1.5
+    line: "GOLEMANCER ONLINE. The constructs march."
+  - id: phoenix-flame
+    name: The Phoenix Feeds the Flame
+    requiresIds: [righteous-fire, rise-of-the-phoenix]
+    multiplier: 1.35
+    line: "The Phoenix feeds the flame. The fire will not die."
+  - id: nemesis-thief
+    name: The Nemesis Mods Flow
+    requiresIds: [headhunter]
+    requiresTag: { tag: speed, count: 3 }
+    multiplier: 1.4
+    line: "The nemesis mods flow. Someone clip this."
+  - id: cospri-loop
+    name: Cospri Loops
+    requiresIds: [cospris-malice]
+    requiresTag: { tag: cold, count: 3 }
+    multiplier: 1.45
+    line: "Cospri loops. The screen is frost and knives."
+  - id: mjolner-storm
+    name: The Hammer Sings
+    requiresIds: [mjolner]
+    requiresTag: { tag: lightning, count: 3 }
+    multiplier: 1.45
+    line: "The hammer sings and the sky answers."
+  - id: knuckle-sandwich
+    name: Knuckle Sandwich
+    requiresIds: [facebreaker]
+    requiresTag: { tag: physical, count: 3 }
+    multiplier: 1.4
+    line: "No weapon. No problem. Knuckle sandwich, served."
+  - id: voltaxic-siphon
+    name: Eldritch Current
+    requiresIds: [voltaxic-rift]
+    requiresTag: { tag: chaos, count: 2 }
+    multiplier: 1.35
+    line: "The eldritch current arcs where resistance means nothing."
+  - id: ghost-in-the-shell
+    name: Ghost in the Shell
+    requiresIds: [chaos-inoculation, shavronnes-wrappings]
+    multiplier: 1.3
+    line: "Flesh abandoned. The shell walks."
+  - id: doryani-favor
+    name: Doryani's Favour
+    requiresIds: [doryanis-catalyst, doryanis-invitation]
+    multiplier: 1.3
+    line: "The Queen's engineer smiles from beyond."
+  - id: original-heresy
+    name: Original Heresy
+    requiresIds: [original-sin]
+    requiresTag: { tag: chaos, count: 3 }
+    multiplier: 1.4
+    line: "All damage is chaos. All chaos is yours."
