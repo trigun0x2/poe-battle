@@ -49,6 +49,21 @@ docker compose up --build   # web on :5173, api on :8787, postgres on :5432
 The client also works with no server at all — drafts then resolve as
 exhibition fights against a seeded bot, clearly labelled.
 
+## Deploy (Fly.io)
+
+One Fly app serves the API, WebSockets, and the built web client from the
+same origin (`fly.toml` + `Dockerfile.fly`):
+
+```bash
+fly launch --copy-config --no-deploy    # pick a unique app name
+fly postgres create && fly postgres attach <pg-app>   # sets DATABASE_URL
+fly deploy
+```
+
+Without Postgres the server uses the in-memory snapshot store; create a
+volume (`fly volumes create exile_data --size 1`) so the snapshot at
+`/data/snapshot.json` survives restarts.
+
 ## Test
 
 ```bash

@@ -28,8 +28,9 @@ export function Chrome() {
 export function Footer() {
   return (
     <footer className="site-footer">
-      A fan-made tribute. Not affiliated with, endorsed by, or supported by
-      Grinding Gear Games. Path of Exile is a trademark of Grinding Gear Games.
+      Exile Draft is a fan-made tribute and is <strong>not associated with,
+      affiliated with, endorsed by, or supported by Grinding Gear Games</strong> in
+      any way. Path of Exile is a trademark of Grinding Gear Games.
     </footer>
   );
 }

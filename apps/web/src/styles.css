@@ -652,7 +652,12 @@ table.ladder tr:hover td { background: var(--ground-2); }
   text-align: center;
   border-top: 1px solid var(--line-soft);
   margin-top: 3rem;
+  max-width: 62ch;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
 }
+.site-footer strong { color: var(--text-dim); font-weight: 600; }
 
 /* ── mobile: the shop becomes a swipeable rail ────────────────────── */
 @media (max-width: 780px) {

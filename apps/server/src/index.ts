@@ -5,8 +5,12 @@
  * stored seed.
  */
 import { randomUUID } from 'node:crypto';
+import { existsSync } from 'node:fs';
+import { dirname, join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import Fastify from 'fastify';
 import cors from '@fastify/cors';
+import fastifyStatic from '@fastify/static';
 import websocket from '@fastify/websocket';
 import {
   Build, DraftAction, DraftError, DraftPool, FightResult, Sheet, botDraft,
@@ -24,6 +28,28 @@ const hub = new RoomHub();
 const app = Fastify({ logger: { level: process.env.LOG_LEVEL ?? 'info' } });
 await app.register(cors, { origin: true });
 await app.register(websocket);
+
+// Single-app deploys (Fly.io et al): serve the built web client from the
+// same origin, with an SPA fallback for client-side routes.
+const here = dirname(fileURLToPath(import.meta.url));
+const webDist = process.env.WEB_DIST ?? join(here, '../../web/dist');
+if (existsSync(join(webDist, 'index.html'))) {
+  await app.register(fastifyStatic, {
+    root: webDist,
+    wildcard: false,
+    maxAge: '1y',
+    immutable: true,
+    index: false,
+  });
+  app.get('/', (_req, reply) => reply.sendFile('index.html', webDist, { maxAge: 0 }));
+  app.setNotFoundHandler((req, reply) => {
+    if (req.method === 'GET' && !req.url.startsWith('/api') && !req.url.startsWith('/ws')) {
+      return reply.sendFile('index.html', webDist, { maxAge: 0 });
+    }
+    return reply.code(404).send({ error: 'Not found' });
+  });
+  app.log.info(`serving web client from ${webDist}`);
+}
 
 const ELO_K = 32;
 function eloDelta(winner: number, loser: number): number {
