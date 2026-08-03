@@ -1,16 +1,10 @@
-# Fly.io config — one app serving both the API/WebSockets and the built web
-# client from the same origin.
+# fly.toml app configuration file generated for exile-draft on 2026-08-03T22:53:57Z
 #
-#   fly launch --copy-config --no-deploy   # first time (pick a unique app name)
-#   fly postgres create && fly postgres attach <pg-app>   # sets DATABASE_URL
-#   fly deploy
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
-# Without an attached Postgres the server falls back to the in-memory
-# snapshot store; mount a volume at /data if you want that snapshot to
-# survive restarts (see [mounts] below).
 
 app = "exile-draft"
-primary_region = "sjc"
+primary_region = 'lax'
 
 [build]
   dockerfile = "Dockerfile.fly"
@@ -22,9 +16,11 @@ primary_region = "sjc"
 [http_service]
   internal_port = 8787
   force_https = true
-  auto_stop_machines = "stop"
+  auto_stop_machines = 'stop'
   auto_start_machines = true
   min_machines_running = 0
+  checks = [{ grace_period = '10s', interval = '15s', method = 'GET', path = '/api/health', timeout = '5s' }]
+  concurrency = { hard_limit = 250, soft_limit = 200, type = 'connections' }
 
   [http_service.concurrency]
     type = "connections"
@@ -40,10 +36,11 @@ primary_region = "sjc"
 
 # Optional: persist the in-memory store's snapshot between restarts when
 # running without Postgres. Create with: fly volumes create exile_data --size 1
+
 [mounts]
   source = "exile_data"
   destination = "/data"
 
 [[vm]]
-  size = "shared-cpu-1x"
-  memory = "512mb"
+  size = 'shared-cpu-1x'
+  memory = '512mb'
