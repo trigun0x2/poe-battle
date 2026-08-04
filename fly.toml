@@ -22,18 +22,6 @@ primary_region = 'lax'
   checks = [{ grace_period = '10s', interval = '15s', method = 'GET', path = '/api/health', timeout = '5s' }]
   concurrency = { hard_limit = 250, soft_limit = 200, type = 'connections' }
 
-  [http_service.concurrency]
-    type = "connections"
-    soft_limit = 200
-    hard_limit = 250
-
-[[http_service.checks]]
-  interval = "15s"
-  timeout = "5s"
-  grace_period = "10s"
-  method = "GET"
-  path = "/api/health"
-
 # Optional: persist the in-memory store's snapshot between restarts when
 # running without Postgres. Create with: fly volumes create exile_data --size 1
 
