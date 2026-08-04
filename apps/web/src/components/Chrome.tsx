@@ -11,7 +11,6 @@ export function Chrome() {
         <NavLink to="/draft">Ladder</NavLink>
         <NavLink to="/daily">Daily</NavLink>
         <NavLink to="/ladder">Standings</NavLink>
-        <NavLink to="/room">Stream</NavLink>
         <button
           className="mute-btn"
           aria-pressed={muted}

@@ -21,10 +21,6 @@ export function HomePage() {
           <h3>Daily Seed</h3>
           <p><span className="tag">One seed, one attempt.</span> The same shops for everyone, every UTC day. Share the result, spoiler-free.</p>
         </Link>
-        <Link to="/room" className="mode-card">
-          <h3>Stream Mode</h3>
-          <p><span className="tag">For the broadcast.</span> Your audience votes the shops, corrupts your items, and challenges your champion.</p>
-        </Link>
       </div>
       <p className="notice">
         Exile Draft is a fan-made tribute inspired by Path of Exile. It is not
